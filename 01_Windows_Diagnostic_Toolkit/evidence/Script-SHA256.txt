@@ -1,0 +1,16 @@
+SHA-256 verification record
+
+File: scripts/Collect-ITDiagnostics.ps1
+Algorithm: SHA-256
+Hash: A3DDD44D2CCC0DF4D39B3152A4D8D9D465F31FB70ECC4706499A36BF146A61DA
+Validated: 2026-07-20
+
+Validation summary:
+- Windows PowerShell parser syntax errors: 0
+- Synthetic sensitive markers found in the public connectivity projection: 0
+- Synthetic exact storage values found in the public storage projection: 0
+- Final controlled non-administrator execution: Diagnostics_20260720_212429
+- Script exit code: 0
+- Windows configuration changes performed: none
+
+Scope note: This record identifies the script used for the controlled execution. It does not claim that every diagnostic section completed successfully.

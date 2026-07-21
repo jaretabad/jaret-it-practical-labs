@@ -1,0 +1,5 @@
+﻿"Test","Layer","Status","Details"
+"TCP/IP loopback","Local TCP/IP stack","ERROR","Test encountered an error. Review private evidence for diagnostic details."
+"Default gateway reachability","Local network","NOT RUN","Test was not run. Review private evidence for diagnostic details."
+"DNS resolution","Name resolution","PASS","Test completed successfully."
+"HTTPS port reachability","Application transport","PASS","Test completed successfully."
