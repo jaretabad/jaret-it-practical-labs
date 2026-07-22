@@ -31,14 +31,18 @@ Role fit should be evaluated against demonstrated capabilities, learning potenti
 
 Lab 01 produced and executed a PowerShell diagnostic toolkit against a Windows 11 64-bit test endpoint without changing Windows configuration. Its privacy hardening was validated: public connectivity output uses fixed, sanitized messages, while complete exception details are restricted to private evidence.
 
-The technical baseline remains partial:
+The controlled validation completed on July 21, 2026 established the planned point-in-time technical baseline:
 
 - DNS resolution: `PASS`
-- HTTPS connectivity: `PASS`
-- Loopback test: `ERROR`
-- Default gateway test: `NOT RUN`
+- HTTPS port reachability: `PASS`
+- TCP/IP loopback: `PASS`
+- Default gateway reachability: `PASS`
+- All planned public summary sections were generated
+- No Windows configuration changes were made
 
-No root cause has been confirmed for the loopback or gateway results. Lab 01 should therefore be presented as validated privacy hardening with a partial technical baseline, not as a fully successful endpoint or network baseline.
+Storage remained above the defined free-space threshold, all three Windows Firewall profiles were enabled, and Windows Security was visually checked to confirm that Bitdefender was active. Microsoft Defender separately reported `SxS Passive Mode`. Eleven automatic services were observed not running; this remains an observation rather than proof of failure. The event-log review was limited by time and record count.
+
+Lab 01 therefore demonstrates validated privacy hardening and a completed point-in-time endpoint baseline. It does not claim continuous endpoint health beyond the validation period.
 
 ## What Lab 01 demonstrates
 
@@ -46,7 +50,7 @@ No root cause has been confirmed for the loopback or gateway results. Lab 01 sho
 - Layered connectivity testing and separation of observed facts from hypotheses.
 - Threshold-based storage review without publishing unnecessary device metrics.
 - A time- and count-limited sample of system events rather than a complete event-log review.
-- A Microsoft Defender status query whose result does not, by itself, identify the registered antivirus provider.
+- A Microsoft Defender-specific status query interpreted alongside a separate visual confirmation that Bitdefender was active.
 - Separation of private evidence from sanitized, employer-facing documentation.
 - Creation of a support ticket, case study, redaction record, public connectivity dataset, and reproducible script hash.
 

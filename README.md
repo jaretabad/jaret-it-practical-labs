@@ -8,7 +8,7 @@ This repository documents realistic IT labs from problem definition through vali
 
 | Lab | Focus | Status |
 |---|---|---|
-| [Lab 01 — Windows Diagnostic Toolkit](01_Windows_Diagnostic_Toolkit/README.md) | Windows, PowerShell, layered connectivity testing, documentation, and privacy hardening | Privacy hardening validated; technical baseline partially validated |
+| [Lab 01 — Windows Diagnostic Toolkit](01_Windows_Diagnostic_Toolkit/README.md) | Windows, PowerShell, layered connectivity testing, documentation, and privacy hardening | Privacy hardening and point-in-time technical baseline validated |
 | [Lab 02 — Network Troubleshooting Casebook](ROADMAP.md#lab-02--network-troubleshooting-casebook) | TCP/IP, DHCP, DNS, routing, and ports | Planned next |
 
 The complete sequence is available in the [practical roadmap](ROADMAP.md).
@@ -17,16 +17,18 @@ The complete sequence is available in the [practical roadmap](ROADMAP.md).
 
 Lab 01 uses a non-elevated PowerShell toolkit to collect endpoint diagnostic evidence without changing Windows configuration. The project separates private raw evidence from reviewed portfolio artifacts and uses fixed public messages so raw exceptions cannot leak into published connectivity results.
 
-The final controlled run supported a **partial technical validation**:
+The controlled, non-elevated run completed on July 21, 2026 and supported a successful point-in-time technical baseline:
 
+- TCP/IP loopback: **PASS**
+- Default gateway reachability: **PASS**
 - DNS resolution: **PASS**
 - HTTPS port reachability: **PASS**
-- TCP/IP loopback: **ERROR** with a fixed sanitized public message
-- Default gateway reachability: **NOT RUN** with a fixed sanitized public message
-- No unsupported root cause was assigned
+- All planned public summary sections were generated
 - No Windows configuration changes were made
 
-This result is intentionally presented as a privacy-hardening validation and partial diagnostic case, not as a complete endpoint baseline.
+Storage remained above the defined free-space threshold, all three Windows Firewall profiles were enabled, and Windows Security was visually checked to confirm that Bitdefender was active. Microsoft Defender separately reported `SxS Passive Mode`. Eleven automatic services were observed not running, but that count is an observation rather than proof of failure. The event-log review remained intentionally limited by time and record count.
+
+This result establishes a documented point-in-time baseline, not a guarantee of continued endpoint health.
 
 ### Reviewed Lab 01 artifacts
 

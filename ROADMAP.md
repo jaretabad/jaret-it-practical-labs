@@ -66,18 +66,20 @@ The workflow is relevant to technical support, desktop support, NOC escalation, 
 
 ### Validated status
 
-**Privacy hardening is validated. The technical baseline is partial.**
+**Privacy hardening and the point-in-time technical baseline are validated.**
 
-The final controlled, non-elevated validation produced these public connectivity results:
+The controlled, non-elevated validation completed on July 21, 2026 produced these public connectivity results:
 
 | Test | Result | Supported conclusion |
 |---|---|---|
+| TCP/IP loopback | `PASS` | The local TCP/IP stack responded during the controlled test. |
+| Default gateway | `PASS` | The configured first network hop responded during the controlled test. |
 | DNS resolution | `PASS` | The selected public hostname resolved during the controlled run. |
 | HTTPS reachability | `PASS` | A TCP connection to the selected public HTTPS endpoint succeeded during the controlled run. |
-| TCP/IP loopback | `ERROR` | The test encountered an error; the public output intentionally exposes no raw exception details. |
-| Default gateway | `NOT RUN` | The toolkit did not run this test because no usable gateway candidate was available to the test logic. |
 
-These results do **not** establish a root cause for the loopback error or the gateway result. They also do not constitute a complete technical baseline because several endpoint sections were not reproduced in the final controlled environment.
+All planned public summary sections were generated. Storage remained above the defined free-space threshold, all three Windows Firewall profiles were enabled, and Windows Security was visually checked to confirm that Bitdefender was active. Microsoft Defender separately reported `SxS Passive Mode`. Eleven automatic services were observed not running, but this count was not treated as proof of failure. The event-log review remained limited by time and record count. No Windows configuration changes were made.
+
+These results establish a reproducible point-in-time baseline, not a guarantee of continued endpoint health.
 
 The public projection uses fixed, sanitized messages for `PASS`, `FAIL`, `ERROR`, and `NOT RUN`. Synthetic exception testing confirmed that fictitious sensitive values did not pass into the public connectivity object. Full diagnostic exceptions are reserved for the locally stored private evidence area.
 
@@ -92,9 +94,9 @@ The public projection uses fixed, sanitized messages for `PASS`, `FAIL`, `ERROR`
 - [Script SHA-256 checksum](01_Windows_Diagnostic_Toolkit/evidence/Script-SHA256.txt)
 - [Completed redaction checklist](01_Windows_Diagnostic_Toolkit/evidence/Redaction-Checklist-Completed.md)
 
-### Remaining technical work
+### Validation outcome
 
-A future interactive validation may investigate why loopback returned `ERROR` and why the gateway test returned `NOT RUN`. That work must begin with fresh observation and must not assume that the controlled execution environment caused either result.
+The interactive validation reproduced the complete public baseline and completed the loopback and default-gateway checks successfully. No Windows configuration change or unsupported root-cause claim was required.
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-A controlled final validation was performed on a Windows 11 64-bit test endpoint using a read-only PowerShell toolkit with least privilege. The run ended safely but produced partial public evidence: DNS resolution and HTTPS port reachability recorded `PASS`, TCP/IP loopback recorded `ERROR`, and default-gateway reachability recorded `NOT RUN`. The two non-success states used fixed sanitized public messages rather than raw exceptions, validating the script’s public-output hardening. The public report did not reproduce system, network, storage, services or firewall sections, and Defender status was unavailable with a generic warning. No endpoint configuration was changed, private evidence was not opened, and no root cause was assigned.
+A controlled validation was completed on a Windows 11 64-bit test endpoint using a read-only PowerShell toolkit with least privilege. TCP/IP loopback, default-gateway reachability, DNS resolution and HTTPS port reachability all recorded `PASS`. The public report generated the intended baseline sections, storage remained above the defined free-space threshold and all three Windows Firewall profiles were enabled. Eleven automatic services were observed not running, but this was documented as an inventory observation rather than proof of failure. The event-log review was intentionally limited by time and quantity. Microsoft Defender reported `SxS Passive Mode`, and a separate visual check confirmed Bitdefender active. No endpoint configuration was changed, private evidence was not opened and no cause was assigned to non-success results from earlier executions.
 
 ## Environment
 
@@ -15,45 +15,45 @@ A controlled final validation was performed on a Windows 11 64-bit test endpoint
 
 ## Problem to solve
 
-An employer needs a consistent endpoint baseline before deployment because an undocumented starting state makes later troubleshooting slower and less reliable. A baseline provides a known, time-specific snapshot that can help a technician distinguish an existing condition from a later change, confirm basic readiness, and decide whether an observation should be resolved, monitored or escalated.
+An employer needs a consistent endpoint baseline because an undocumented starting state makes later troubleshooting slower and less reliable. A baseline provides a known, time-specific snapshot that can help a technician distinguish an existing condition from a later change, confirm basic readiness and decide whether an observation should be resolved, monitored or escalated.
 
-The intended task was to collect useful baseline evidence without changing the endpoint. The final public output reproduced only partial connectivity results, the stated event-sampling boundary and a generic Defender-unavailable warning. It did not reproduce the other intended baseline sections and therefore did not constitute a complete endpoint, log, security, compliance, performance or application assessment.
+The task was to collect useful baseline evidence without changing the endpoint. The validated scope covered system and network summaries, layered connectivity, storage threshold status, automatic-service observations, a bounded event-log sample and basic security-control visibility. It was not a complete security, compliance, performance, update, application or enterprise-readiness assessment.
 
 ## Approach
 
 1. **Verify the environment and script integrity.**  
-   I confirmed the PowerShell requirement, reviewed the execution-policy context, inspected the script for read-only behavior and used SHA-256 hashes to track script revisions.
+   I confirmed the PowerShell requirement, reviewed the execution-policy context, inspected the script for read-only behavior and used a SHA-256 hash to identify the validated script revision.
 
-2. **Attempt a system and network baseline.**  
-   The toolkit was designed to gather structured information, but the final public report omitted the system, network, storage, services and firewall sections. Those areas were recorded as unverified rather than inferred.
+2. **Collect a system and network baseline.**  
+   The toolkit generated sanitized system and network summaries while omitting identifying endpoint and network values.
 
-3. **Test local TCP/IP.**  
-   The loopback check recorded `ERROR`. Its public detail was a fixed sanitized message and did not expose the underlying exception.
+3. **Validate layered connectivity.**  
+   TCP/IP loopback, default-gateway reachability, DNS resolution and HTTPS port reachability all recorded `PASS` in the latest controlled execution.
 
-4. **Test the default gateway.**  
-   The gateway check recorded `NOT RUN`. Its public detail was fixed and sanitized, and no gateway value was exposed.
+4. **Review storage.**  
+   The public result preserved only the threshold-based conclusion that storage remained above the defined free-space threshold.
 
-5. **Test DNS resolution.**  
-   The DNS check recorded `PASS`, supporting successful resolution of the test name during that run.
+5. **Review automatic services.**  
+   Eleven automatic services were observed not running. The report explicitly treated the count as an observation rather than evidence of failure, and no services were changed.
 
-6. **Test application transport on TCP 443.**  
-   The HTTPS port-reachability check recorded `PASS`. This did not retroactively establish loopback or gateway status.
+6. **Bound the event-log review.**  
+   The report described a sample limited to the preceding 2 days and a maximum of 30 events. Raw event messages were omitted from public evidence.
 
-7. **Review the remaining public coverage.**  
-   No public storage CSV was generated. The report omitted system, network, storage, services and firewall sections. Event-log output stated only a 2-day window and 30-record maximum, without a captured count or raw messages. Defender was unavailable with a generic public warning.
+7. **Review basic security-control visibility.**  
+   All three Windows Firewall profiles were enabled. Microsoft Defender reported `SxS Passive Mode`, while a separate visual check confirmed Bitdefender active.
 
 8. **Document and validate.**  
-   I confirmed script syntax, executed one controlled non-elevated run, reviewed only sanitized public output and distinguished current facts from hypotheses and unresolved matters.
+   I reviewed only sanitized public output, separated facts from limitations and confirmed that no endpoint configuration changes were made.
 
 ## Script troubleshooting performed
 
-The troubleshooting focused on the diagnostic tool itself and did not treat its initial output as proof of endpoint failure.
+The troubleshooting focused on the diagnostic tool itself and did not treat an earlier tool result as proof of endpoint failure.
 
-- An early execution path evaluated `OutputRoot` as empty. Final validated executions used an explicit output destination; the implicit default behavior was not separately claimed as validated.
+- An early execution path evaluated `OutputRoot` as empty. Validated executions used an explicit output destination; the implicit default behavior is not separately claimed as validated.
 - The report writer initially rejected empty lines. Its parameter handling was updated to accept empty strings, after which report generation completed successfully.
-- Under StrictMode, the DNS filter attempted to access a property that was not present on every returned object. A controlled reproduction with synthetic objects confirmed the behavior. The filter was changed to verify that the property existed before reading it, and the next execution recorded DNS as `PASS`.
-- The default-gateway projection had the same class of StrictMode problem. Property-safe logic was tested in memory and retained in the corrected script. A prior repeat execution recorded `PASS`, but the final controlled run recorded `NOT RUN`; therefore current gateway behavior remains unresolved.
-- A storage display template added a separator to a value that already contained one. The template correction remains in the reviewed script, but the final controlled run did not generate public storage output and therefore did not revalidate that presentation path.
+- Under StrictMode, a DNS filter attempted to access a property that was not present on every returned object. Property-safe logic was tested with synthetic objects and retained in the corrected script. The latest controlled execution recorded DNS `PASS`.
+- The default-gateway projection required the same property-safe approach. The latest controlled execution recorded gateway `PASS`. This later result does not establish the cause of an earlier `NOT RUN` result.
+- A storage display template added a separator to a value that already contained one. The template was corrected, and the latest public report recorded only the sanitized threshold conclusion.
 - One attempted validation was stopped by Execution Policy before the script began. In the controlled personal lab, the reviewed script was then run in a separate process with a temporary process-level bypass. No persistent execution policy or endpoint configuration was changed.
 
 ## Evidence
@@ -64,8 +64,8 @@ Only sanitized, reviewed evidence is represented below.
 
 | Test | Layer | Final status | Evidence-supported meaning |
 |---|---|---:|---|
-| TCP/IP loopback | Local TCP/IP stack | `ERROR` | The public result reports an error with a fixed sanitized detail; it does not reveal the cause. |
-| Default gateway reachability | Local network | `NOT RUN` | The public result reports that the test did not run, using a fixed sanitized detail. |
+| TCP/IP loopback | Local TCP/IP stack | `PASS` | The local TCP/IP loopback test responded during collection. |
+| Default gateway reachability | Local network | `PASS` | The configured gateway responded to the test during collection. |
 | DNS resolution | Name resolution | `PASS` | Hostname resolution succeeded during collection. |
 | HTTPS port reachability | Application transport | `PASS` | TCP port 443 was reachable during collection. |
 
@@ -73,48 +73,53 @@ Only sanitized, reviewed evidence is represented below.
 
 | Area | Confirmed result |
 |---|---|
-| Collection mode | One controlled non-elevated run ended safely with no configuration changes |
-| Storage | No public storage CSV or storage section was generated; no storage conclusion is supported |
-| System, network and services | Corresponding public sections were absent; no result is inferred |
-| Windows Firewall | The public firewall section was absent; no firewall status is supported |
-| Microsoft Defender | Status was unavailable and the public warning was generic; no boolean or provider conclusion is supported |
-| Event log | Public output stated a 2-day window and 30-record maximum without a captured count or raw messages |
+| Collection mode | One controlled non-elevated run completed with no configuration changes |
+| Report coverage | The intended system, network, connectivity, storage, services, event-log and security-control sections were generated |
+| Storage | Storage remained above the defined free-space threshold |
+| Services | Eleven automatic services were observed not running; this count was not treated as proof of failure and no services were changed |
+| Windows Firewall | Domain, Private and Public profiles were enabled |
+| Antivirus visibility | Microsoft Defender reported `SxS Passive Mode`; a separate visual check confirmed Bitdefender active |
+| Event log | The public sample covered the preceding 2 days and was limited to a maximum of 30 events; raw messages were omitted |
 | Privacy | Raw endpoint, account, network, hardware, contact and path identifiers were omitted from the portfolio evidence |
 
 ## Findings
 
 ### Confirmed observations
 
-- The final controlled script execution ended safely without Administrator access or configuration changes.
-- Loopback recorded `ERROR`; gateway recorded `NOT RUN`; DNS and HTTPS port reachability recorded `PASS`.
-- Fixed sanitized details were used for the two non-success connectivity states, so raw exception text did not enter the public result.
-- The public report did not reproduce system, network, storage, services or firewall sections, and no public storage CSV was generated.
-- Microsoft Defender status was unavailable with a generic public warning.
+- The latest controlled script execution completed without Administrator access or endpoint configuration changes.
+- Loopback, gateway, DNS and HTTPS port reachability recorded `PASS`.
+- The intended public baseline sections were generated.
+- Storage remained above the defined free-space threshold.
+- Eleven automatic services were observed not running; no symptoms or supporting evidence established that this represented a failure.
+- The event-log review was limited to 2 days and a maximum of 30 events.
+- All three Windows Firewall profiles were enabled.
+- Microsoft Defender reported `SxS Passive Mode`; a separate visual check confirmed Bitdefender active.
 - No services, firewall rules, network settings, accounts, updates or security settings were changed.
-- Syntax validation, script hashing and review of the sanitized public output identified the tested revision and its partial result.
+- The sanitized public evidence excluded raw identifying values and event messages.
 
-### Supported interpretations and hypotheses
+### Supported interpretations
 
-- DNS and HTTPS `PASS` support only those tested functions at that point in time.
-- Loopback `ERROR` and gateway `NOT RUN` do not, by themselves, prove an endpoint or network fault.
-- A restricted execution context is one possible explanation for the partial coverage, but the public evidence does not confirm it.
-- No root cause was assigned because private evidence was not opened and the public evidence was insufficient.
+- The four `PASS` results support those specific connectivity functions at collection time.
+- Defender passive mode is consistent with another antivirus provider being active, and Bitdefender was separately confirmed active at that time.
+- The automatic-service count is an observation that would require symptoms, dependency analysis and approved comparison criteria before it could support a fault diagnosis.
+- Enabled Firewall profiles demonstrate their reported state at collection time, not the suitability of every rule or compliance with an enterprise standard.
+- The latest successful execution supersedes the earlier results for the current baseline, but it does not prove why earlier executions produced different tool output.
 
-### Pending matters and limitations
+### Limitations
 
-- Loopback and gateway checks rely on ICMP behavior; a failed ping could reflect filtering rather than loss of service.
-- Gateway reachability was not tested successfully in the final controlled run.
-- Event-log messages were intentionally not opened for this document, so no event-specific cause or impact was assessed.
-- Storage, system, network-baseline, services, firewall and update conclusions are unavailable from the omitted public sections.
-- Antivirus-provider identity and health require a separate approved, provider-aware check; Defender unavailable does not establish either state.
+- The results are a point-in-time baseline for one test endpoint and should not be generalized to an enterprise fleet.
+- Connectivity `PASS` does not guarantee continuous network availability.
+- The event-log review was intentionally limited by time and record count and was not a complete review of all Windows logs.
+- Raw event messages were not opened for this case study, so no event-specific cause or impact was assessed.
+- Bitdefender being active does not by itself establish signature currency, alert status, licensing or organizational compliance.
+- Update compliance, enterprise-policy alignment, application health and performance were outside the validated scope.
 - Validated executions used an explicit output destination, so this case study does not claim separate validation of the script’s implicit default output behavior.
-- Results apply to one endpoint in a controlled home lab and should not be generalized to an enterprise fleet.
 
 ## Conclusion
 
-The final controlled run supports a successful privacy-hardening check and only a partial technical validation. DNS resolution and TCP 443 reachability passed. Loopback returned a sanitized `ERROR`, gateway remained `NOT RUN`, and the other baseline sections were not reproduced publicly.
+The final controlled run supports successful technical validation within the defined Lab 01 scope and confirms the toolkit’s privacy-conscious public output. All four layered connectivity tests passed, storage remained above the defined threshold, the expected baseline sections were generated and the visible Firewall profiles were enabled. Service and event data were reported with explicit limitations rather than overstated as failures or a complete audit.
 
-The corrected script kept raw exception text out of public connectivity details, which is the hardening behavior this run validated. The run did not establish why loopback errored, why gateway did not run or why several public sections were absent. No endpoint configuration was changed, private evidence was not opened and no root cause was assigned.
+Microsoft Defender operated in passive mode, and Bitdefender was confirmed active through a separate visual check. No endpoint configuration was changed, private evidence was not opened and no endpoint or network root cause was assigned to earlier tool results. This evidence establishes a reproducible point-in-time baseline, not a guarantee of continued endpoint health or enterprise compliance.
 
 ## Security and privacy decisions
 
@@ -124,10 +129,9 @@ Raw collection data and the portfolio draft were kept separate. The public evide
 
 ## What I would do next in a business environment
 
-- Record the partial validation in approved ticketing or project documentation without placing sensitive identifiers in a public artifact.
-- Request explicit authorization for a future interactive Windows PowerShell validation before attempting to reproduce the missing sections.
+- Record the validated baseline in approved ticketing or project documentation without placing sensitive identifiers in a public artifact.
 - Compare the endpoint with the organization’s approved build, network, update, firewall and antivirus policies.
-- Use approved endpoint-management or remote-support tools to verify patch compliance and antivirus health rather than relying only on locally visible status.
+- Use approved endpoint-management or security tools to verify patch compliance, signature currency and antivirus alerts rather than relying only on locally visible status.
 - Confirm readiness with the endpoint owner or assigned user and document any reported symptoms.
 - If a symptom exists, correlate it with service state and event timestamps through an authorized private review.
 - Escalate any confirmed policy deviation, recurring connectivity failure, security alert or unsupported condition to the appropriate support, network, endpoint-management or security team.

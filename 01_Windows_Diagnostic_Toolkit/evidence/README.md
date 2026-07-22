@@ -12,6 +12,8 @@ Reviewed public artifacts currently present:
 
 Together, this set provides the sanitized support record, case study, reproducible connectivity results, script-integrity hash and completed privacy review.
 
-The final controlled execution produced partial evidence: DNS and HTTPS reachability recorded `PASS`, while loopback recorded a sanitized `ERROR` and default-gateway reachability remained `NOT RUN`. The public report omitted several baseline sections, so these artifacts must not represent the run as a complete endpoint baseline. The fixed public messages validate the redaction hardening; they do not establish a root cause.
+The final controlled execution recorded `PASS` for TCP/IP loopback, default-gateway reachability, DNS resolution and HTTPS port reachability. The intended public baseline sections were generated, storage remained above the defined free-space threshold and all three Windows Firewall profiles were enabled. Eleven automatic services were observed not running, but this was documented as an observation rather than proof of failure. The event-log review remained limited by both time and quantity.
+
+Microsoft Defender reported `SxS Passive Mode`, while a separate visual check confirmed Bitdefender active. These artifacts represent a sanitized point-in-time baseline within the defined Lab 01 scope; they do not guarantee continued endpoint health, establish enterprise-policy compliance or assign a root cause to different results from earlier executions.
 
 Never copy the `PRIVATE_DO_NOT_UPLOAD` directory into this folder.

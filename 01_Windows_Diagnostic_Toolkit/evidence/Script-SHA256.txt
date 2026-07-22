@@ -2,15 +2,18 @@ SHA-256 verification record
 
 File: scripts/Collect-ITDiagnostics.ps1
 Algorithm: SHA-256
-Hash: A3DDD44D2CCC0DF4D39B3152A4D8D9D465F31FB70ECC4706499A36BF146A61DA
-Validated: 2026-07-20
+Hash: 6B3C30249E29A7C0379F1005FB7366A0C3DD36ECC14387A0115FFC67FC038727
+Validated: 2026-07-21
+Byte representation: Windows working-tree copy with CRLF line endings
 
 Validation summary:
 - Windows PowerShell parser syntax errors: 0
-- Synthetic sensitive markers found in the public connectivity projection: 0
-- Synthetic exact storage values found in the public storage projection: 0
-- Final controlled non-administrator execution: Diagnostics_20260720_212429
-- Script exit code: 0
+- Public-output privacy findings: 0
+- Public connectivity results: 4 PASS
+- Planned public summary sections generated: all
+- Controlled non-administrator execution: Diagnostics_20260721_041008
+- Execution result: completed
 - Windows configuration changes performed: none
+- Read-only Git comparison: working-tree script content matches HEAD
 
-Scope note: This record identifies the script used for the controlled execution. It does not claim that every diagnostic section completed successfully.
+Scope note: This record identifies the Windows working-tree script used for the controlled execution. A different line-ending representation produces a different byte-level hash. The validation is a point-in-time baseline and does not guarantee continued endpoint health.

@@ -12,27 +12,28 @@ The toolkit does not change Windows, network, firewall, service, account, or sec
 
 ## Current validation status
 
-Privacy hardening is validated, but the final technical baseline is only partial.
+Privacy hardening and the point-in-time technical baseline were validated in a controlled, non-elevated run on July 21, 2026. All planned public summary sections were generated, and no Windows configuration changes were made.
 
-The final controlled, non-elevated run produced:
+The controlled run produced:
 
 | Check | Public result |
 |---|---|
-| TCP/IP loopback | `ERROR` |
-| Default gateway reachability | `NOT RUN` |
+| TCP/IP loopback | `PASS` |
+| Default gateway reachability | `PASS` |
 | DNS resolution | `PASS` |
 | HTTPS port reachability | `PASS` |
 
-Additional limits from that run:
+Supporting observations:
 
-- The public `Storage_Summary.csv` file was not generated.
-- The public summary omitted the System baseline, Network baseline, Storage, Services, and Firewall sections.
-- The event-log section described only a time- and count-limited sample: the previous two days, with a maximum of 30 records. It did not publish raw event messages.
-- Microsoft Defender status was reported as unavailable. The script queries Defender-specific indicators and cannot, by itself, establish which antivirus provider Windows has registered.
+- Storage remained above the defined free-space threshold.
+- Eleven automatic services were observed not running. This count is an observation, not proof of failure; no services were changed.
+- The event-log review was limited to the previous two days and a maximum of 30 records. Raw event messages were not published.
+- The Domain, Private, and Public Windows Firewall profiles were enabled.
+- Windows Security was visually checked and Bitdefender was confirmed active. Microsoft Defender separately reported `SxS Passive Mode`; its real-time-protection indicator was not used alone to assess the endpoint's antivirus coverage.
 
-The privacy controls behaved as designed: public `ERROR` and `NOT RUN` results contained fixed, sanitized descriptions rather than raw exception text. Complete exception details were restricted to `PRIVATE_DO_NOT_UPLOAD`.
+The privacy controls behaved as designed: public connectivity results used fixed, sanitized descriptions, and complete exception details were restricted to `PRIVATE_DO_NOT_UPLOAD`.
 
-No root cause has been established for the incomplete sections or the loopback and gateway results. The public evidence does not support assigning one. A later interactive validation is required to reproduce and investigate the pending checks safely.
+This validation establishes a successful point-in-time baseline. It does not guarantee continued endpoint health or convert limited observations, such as stopped automatic services or sampled events, into confirmed faults.
 
 ## Public artifacts
 
@@ -282,15 +283,15 @@ The current public evidence set includes the validated script, sanitized connect
 The following items are supported by the repository evidence:
 
 - [x] The toolkit was run without Administrator access.
-- [x] Public connectivity output was reviewed and the partial result was documented.
+- [x] Public connectivity output was reviewed and all four layered tests returned `PASS`.
 - [x] The endpoint baseline ticket uses sanitized, evidence-supported statements.
 - [x] The case study distinguishes observations, limitations, and unsupported causes.
 - [x] The redaction checklist documents the privacy review.
 - [x] Synthetic exception testing verified that raw sensitive text does not reach the public connectivity projection.
-- [ ] A later interactive run reproduces the missing baseline sections safely.
-- [ ] A later interactive run completes the loopback and default-gateway validation.
+- [x] The controlled interactive run reproduced all planned public baseline sections safely.
+- [x] The controlled interactive run completed the loopback and default-gateway validation.
 
-Lab 01 therefore demonstrates validated privacy hardening and a partial technical baseline—not a complete endpoint validation.
+Lab 01 therefore demonstrates validated privacy hardening and a completed point-in-time technical baseline, with clearly documented scope and limitations.
 
 ## Career relevance
 

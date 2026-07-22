@@ -1,7 +1,7 @@
 # Completed Portfolio Redaction Checklist
 
-**Review date:** 2026-07-20  
-**Scope:** Lab 01 public portfolio candidates and the sanitized public output used to create the final connectivity evidence.
+**Review date:** 2026-07-21  
+**Scope:** Lab 01 public portfolio candidates and the sanitized public output used to document the final controlled validation.
 
 ## Remove or replace
 
@@ -28,7 +28,7 @@
 - [x] Command names, reasoning and least-privilege boundary
 - [x] Ticket chronology, validation steps and unresolved matters
 - [x] Evidence-supported conclusions and limitations
-- [x] No storage conclusion was published from the final run because no public storage CSV was generated
+- [x] Storage was represented only by the sanitized conclusion that it remained above the defined free-space threshold
 
 ## Screenshot review
 
@@ -41,10 +41,14 @@
 - [x] Full synthetic exception text remained in the source/private test object and was not copied to the public object.
 - [x] The public storage projection exposes only `Test`, `Status` and `Details`; synthetic drive and capacity values were absent.
 - [x] Event-log wording describes a time- and quantity-limited sample rather than a complete log review.
-- [x] Microsoft Defender wording is limited to what the published script and public result support; no provider identity is inferred.
+- [x] Microsoft Defender wording is limited to Defender-specific status; `SxS Passive Mode` came from a separate read-only query and Bitdefender activity was confirmed through a separate visual check.
 - [x] The SHA-256 hash of the script used for the controlled execution is recorded in `Script-SHA256.txt`.
 - [x] The controlled execution was non-administrator, ended with exit code 0 and reported no Windows configuration changes.
-- [x] The connectivity evidence preserves the partial result: two `PASS`, one `ERROR` and one `NOT RUN`.
+- [x] The connectivity evidence preserves the final result: four `PASS` statuses.
+- [x] The intended public baseline sections were generated.
+- [x] The 11 automatic services observed not running are presented as an observation, not proof of failure.
+- [x] The event-log review is presented as a time- and quantity-limited sample, not a complete log audit.
+- [x] Enabled Firewall profiles are presented as point-in-time states, not proof of enterprise-policy compliance.
 
 ## Final check
 
@@ -56,4 +60,4 @@
 
 ## Result
 
-The publication set passed the privacy and redaction review. The technical result remains a partial validation: the public hardening was reproduced, while several diagnostic sections and two connectivity stages require a future, separately authorized interactive validation.
+The publication set passed the privacy and redaction review. Technical validation was completed within the defined Lab 01 scope: all four connectivity tests passed and the intended baseline sections were generated. The evidence remains a point-in-time observation and does not claim continuous endpoint health, complete log review or enterprise-policy compliance.
