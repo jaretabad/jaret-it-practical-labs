@@ -45,7 +45,7 @@ Use a layered troubleshooting method to separate link, IP addressing, default ga
 |   -- Layered-Network-Troubleshooting-Method.md
 |-- diagrams/
 -- evidence/
-` 
+`
 
 The `cases` directory contains the completed troubleshooting tickets. The `docs` directory contains reusable technical references. The `diagrams` and `evidence` directories are reserved for sanitized visual and supporting artifacts that are safe for public publication.
 

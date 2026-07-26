@@ -109,7 +109,7 @@ Low. A small number of ICMP packets are sent to the selected destination. Repeat
 Administrator privileges are not normally required.
 
 ### Syntax Used in This Lab
-`Test-Connection -ComputerName <destination> -Count <number> -Quiet` 
+`Test-Connection -ComputerName <destination> -Count <number> -Quiet`
 
 The `-ComputerName` parameter was used for compatibility with Windows PowerShell. The `-Quiet` parameter returned a Boolean result instead of detailed endpoint information.
 
@@ -155,7 +155,7 @@ Low. It generates a normal DNS lookup request. Excessive repeated queries should
 Administrator privileges are not normally required.
 
 ### Syntax Used in This Lab
-`Resolve-DnsName -Name example.com -Type A -DnsOnly -ErrorAction Stop` 
+`Resolve-DnsName -Name example.com -Type A -DnsOnly -ErrorAction Stop`
 
 The `-Type A` parameter requested IPv4 address records. The `-DnsOnly` parameter limited resolution to DNS instead of using other name-resolution mechanisms. The `-ErrorAction Stop` parameter allowed PowerShell to treat a failed query as a catchable error during the controlled test.
 
@@ -202,7 +202,7 @@ Low. It creates a normal diagnostic connection attempt to the selected destinati
 Administrator privileges are not normally required.
 
 ### Syntax Used in This Lab
-`Test-NetConnection -ComputerName example.com -Port 443 -InformationLevel Quiet` 
+`Test-NetConnection -ComputerName example.com -Port 443 -InformationLevel Quiet`
 
 The `-ComputerName` parameter selected the destination. The `-Port` parameter specified the TCP service port. The `-InformationLevel Quiet` option returned a Boolean result instead of detailed endpoint and routing information.
 
@@ -250,7 +250,7 @@ Very low. The command only reads existing DNS client settings.
 Administrator privileges are not normally required to view DNS server configuration.
 
 ### Syntax Used in This Lab
-`Get-DnsClientServerAddress -AddressFamily IPv4` 
+`Get-DnsClientServerAddress -AddressFamily IPv4`
 
 The `-AddressFamily IPv4` parameter limited the output to DNS servers configured for IPv4.
 
