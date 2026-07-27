@@ -9,7 +9,7 @@ This repository documents realistic IT labs from problem definition through vali
 | Lab | Focus | Status |
 |---|---|---|
 | [Lab 01 — Windows Diagnostic Toolkit](01_Windows_Diagnostic_Toolkit/README.md) | Windows, PowerShell, layered connectivity testing, documentation, and privacy hardening | Privacy hardening and point-in-time technical baseline validated |
-| [Lab 02 — Network Troubleshooting Casebook](ROADMAP.md#lab-02--network-troubleshooting-casebook) | TCP/IP, DHCP, DNS, routing, and ports | Planned next |
+| [Lab 02 — Network Troubleshooting Casebook](02_Network_Troubleshooting_Casebook/README.md) | TCP/IP, DHCP, DNS, routing, and ports | Completed and verified |
 
 The complete sequence is available in the [practical roadmap](ROADMAP.md).
 
