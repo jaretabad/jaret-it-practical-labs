@@ -85,6 +85,105 @@ Explore single sign-on (SSO), provisioning, federation concepts, enterprise appl
 
 Apply PowerShell and Microsoft Graph to repeatable administration, reporting, validation, and error handling. Integrate identity, cloud, SaaS, endpoint, security, compliance, documentation, cost control, and operational decision-making in a final capstone.
 
+## Support Operations Track
+
+This complementary track develops practical Help Desk operations, ticket lifecycle management, and Excel-based reporting skills. It runs in parallel with the primary Cloud, Systems, Identity and SaaS roadmap and does not replace, renumber, or delay the Google IT Support Professional Certificate, Course 2, Module 01, Lab 03, or the main Lab 01–12 sequence.
+
+| ID | Module or Lab | Status |
+|---|---|---|
+| Mini-Module S1 | Microsoft Excel for IT Support Operations | **Planned / Not Started** |
+| Lab S1 | Help Desk Ticket Lifecycle Simulation | **Planned / Not Started** |
+
+All capabilities in this track remain **planned learning** until the relevant block has been completed, reviewed, and verified. Microsoft Excel, PivotTables, dashboards, and ticketing systems must not be presented as demonstrated skills before that validation.
+
+### Mini-Module S1 — Microsoft Excel for IT Support Operations
+
+Mini-Module S1 will develop Excel skills from Basic to Intermediate through practical IT Support reporting tasks, including:
+
+- Excel Tables;
+- sorting and filters;
+- essential formulas;
+- `IF`;
+- `COUNTIF` and `COUNTIFS`;
+- `XLOOKUP`;
+- `IFERROR`;
+- conditional formatting;
+- data validation;
+- PivotTables;
+- PivotCharts when useful; and
+- a small IT Support operations dashboard.
+
+The planned outcome is a sanitized IT Support workbook that can organize and report operational measures such as:
+
+- tickets by category;
+- tickets by priority;
+- open versus resolved tickets;
+- escalated tickets;
+- resolution-time metrics;
+- technician workload; and
+- common issue types.
+
+### Lab S1 — Help Desk Ticket Lifecycle Simulation
+
+Lab S1 will simulate a controlled Help Desk workflow covering:
+
+- ticket intake;
+- categorization;
+- impact;
+- urgency;
+- priority;
+- troubleshooting notes;
+- resolution;
+- user confirmation;
+- documentation; and
+- escalation.
+
+When appropriate, Lab S1 will apply the knowledge, workbook structure, formulas, reporting methods, and validation practices developed in Mini-Module S1. All users, technicians, devices, tickets, and operational data must be fictional and sanitized.
+
+### Portfolio Evidence
+
+Mini-Module S1 and Lab S1 may produce reviewed portfolio evidence such as:
+
+- a sanitized Excel workbook;
+- a sample ticket dataset;
+- a ticket register;
+- a priority matrix;
+- an escalation matrix;
+- troubleshooting notes;
+- resolution summaries;
+- dashboard screenshots;
+- PivotTable or reporting evidence;
+- a data dictionary;
+- a README;
+- a case study; and
+- a knowledge-base article or runbook.
+
+This work must be described honestly as **hands-on learning**, a **self-directed project**, a **simulated Help Desk environment**, or **Support Operations portfolio work**. It must not be presented as professional production experience.
+
+### Scheduling and Priority
+
+- The Support Operations Track runs in parallel with the primary roadmap.
+- It must not delay the main roadmap.
+- The Google IT Support Professional Certificate, Course 2, Module 01, and Lab 03 keep their current priority.
+- The complementary track may receive approximately one study session per week.
+- Actual timing may be adjusted according to workload and learning progress.
+
+### Tool Evaluation
+
+Before choosing Excel licensing, ticketing platforms, SaaS tools, courses, or paid labs for this track, evaluate:
+
+- current availability;
+- total and recurring cost;
+- practical learning value;
+- limitations;
+- portfolio usefulness;
+- relevance to job postings;
+- readiness;
+- lower-cost alternatives; and
+- risk of unexpected charges.
+
+Paid resources should be used only when their practical and professional value justifies the cost and the risk of unexpected charges is understood and controlled.
+
 ## Tool and Investment Policy
 
 Tools, licenses, sandboxes, courses, and paid platforms will not be accepted or rejected solely because they have a cost. Each option will be evaluated before use according to:

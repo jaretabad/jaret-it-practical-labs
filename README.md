@@ -27,6 +27,8 @@ The work is designed to build practical, explainable, and transferable skills fo
 | Course 2 — The Bits and Bytes of Computer Networking | **In Progress** |
 | Module 01 — Enterprise Identity & Microsoft Cloud Foundations | **Next** |
 | Lab 03 — Enterprise Identity Lifecycle & Access Control Simulation | **Planned / Not Started** |
+| Mini-Module S1 — Microsoft Excel for IT Support Operations | **Planned / Not Started** |
+| Lab S1 — Help Desk Ticket Lifecycle Simulation | **Planned / Not Started** |
 
 ## Completed Projects
 
@@ -75,6 +77,24 @@ Lab 02 applies a structured, layered troubleshooting method to controlled networ
 
 [Open Lab 02 — Network Troubleshooting Casebook](02_Network_Troubleshooting_Casebook/README.md)
 
+## Support Operations Track
+
+The Support Operations Track is a complementary path for developing practical skills in Help Desk operations, ticket lifecycle management, Excel-based support reporting, prioritization, escalation, troubleshooting documentation, and operational metrics. It will run in parallel with the primary roadmap and will not replace or delay the Google IT Support Professional Certificate, Course 2, Module 01, or Lab 03.
+
+### Mini-Module S1 — Microsoft Excel for IT Support Operations
+
+**Status:** Planned / Not Started
+
+Mini-Module S1 is planned to develop Microsoft Excel skills from Basic to Intermediate through Excel Tables, filters and sorting, essential formulas, `IF`, `COUNTIF`, `COUNTIFS`, `XLOOKUP`, `IFERROR`, conditional formatting, data validation, PivotTables, and basic dashboard reporting for IT Support operations.
+
+### Lab S1 — Help Desk Ticket Lifecycle Simulation
+
+**Status:** Planned / Not Started
+
+Lab S1 will use a simulated Help Desk environment and sanitized data to practice ticket intake, categorization, impact, urgency, priority, troubleshooting notes, resolution, user confirmation, documentation, and escalation.
+
+Mini-Module S1 will be documented as **hands-on learning**, and Lab S1 as a **self-directed simulated Help Desk project**. Neither block represents professional production experience, and all portfolio evidence will be sanitized before publication.
+
 ## Current Professional Direction
 
 Upcoming projects will progressively focus on:
@@ -118,10 +138,16 @@ Future projects will be selected and implemented according to current learning p
 - Role-based access control (RBAC)
 - Identity lifecycle
 - Enterprise operations
+- Microsoft Excel for IT support operations
+- Excel Tables and formulas
+- PivotTables and dashboard reporting
+- Help Desk ticket lifecycle
+- Impact, urgency, and priority assessment
+- Escalation and ticket documentation
 
 ## Roadmap
 
-The [Cloud, Systems, Identity & SaaS Roadmap](ROADMAP.md) is the primary planning source for the repository. It contains the current lab sequence, learning phases, professional direction, investment policy, and safety standards.
+The [Cloud, Systems, Identity & SaaS Roadmap](ROADMAP.md) is the primary planning source for the repository. It contains the current sequence, status, learning phases, scheduling guidance, tool evaluation, investment decisions, professional direction, and safety standards.
 
 ## Portfolio Standards
 
