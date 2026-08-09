@@ -6,16 +6,17 @@ Last updated: 2026-08-08
 
 This file is the current-state checkpoint for Jaret's IT, Cloud, Systems Administration, Identity, SaaS, and Cybersecurity learning portfolio. It exists so work can continue across different conversations without rediscovering completed labs, current priorities, or operating rules.
 
-Use this file together with `ROADMAP.md` and `docs/PROJECT-CONTINUITY-PROTOCOL.md` before making meaningful changes.
+First inspect the directly verifiable current state. Then use this file together with `ROADMAP.md` and `docs/PROJECT-CONTINUITY-PROTOCOL.md` before making meaningful changes.
 
 ## Repository state
 
 - Repository: `jaretabad/jaret-it-practical-labs`
 - Default branch: `main`
 - Repository visibility: public
-- Latest verified remote checkpoint before this continuity update: `0c0e473` — `Add Support Operations track to portfolio roadmap`
+- Verified continuity baseline before the current alignment edits: `466b4a0` — `Add continuity instructions for repository agents`
+- Directly verified current state takes precedence if this summarized checkpoint becomes stale.
 - `ROADMAP.md` remains the primary planning source for sequence and long-term direction.
-- `PROJECT-STATUS.md` is the primary source for the current checkpoint and immediate next work.
+- `PROJECT-STATUS.md` is the summarized operational checkpoint for current status and immediate next work.
 
 ## Current professional direction
 
@@ -119,7 +120,7 @@ Before starting any paid/cloud setup for Module 01, confirm the current learning
 
 A new conversation inside this career/IT project must not start from zero.
 
-Before asking Jaret to repeat established progress, inspect this file, `ROADMAP.md`, the repository, and any relevant completed lab documentation. Continue from the most recent verified checkpoint.
+Before asking Jaret to repeat established progress, inspect the directly verifiable current state in the relevant files and repository working tree, Git/GitHub, platforms, accounts, resources, and technical evidence. Then reconcile that state with this file, the current local `PROJECT-CONTEXT.md` when available, `ROADMAP.md`, and any relevant lab, module, or course documentation. Use conversation history and memory only as supporting context when verifiable evidence exists.
 
 Update this file whenever a material state change occurs, including:
 

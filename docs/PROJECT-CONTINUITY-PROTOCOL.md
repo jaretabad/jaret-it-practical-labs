@@ -8,13 +8,13 @@ This protocol defines how work in the Jaret IT / Cloud / Systems / Cybersecurity
 
 Before meaningful work, use these sources in this order:
 
-1. `PROJECT-STATUS.md` — current checkpoint and immediate next action.
-2. `ROADMAP.md` — long-term sequence, planned labs, investment policy, safety standards, and professional direction.
-3. Relevant lab/module documentation in the repository — actual completed evidence and implementation details.
-4. Git history on `main` — verified repository milestones.
-5. Current course/module materials — source for what is being studied now.
+1. Directly verifiable current state — relevant files and repository working tree, Git/GitHub state, platforms, accounts, resources, and relevant technical evidence. Validated lab documentation and Git history are part of this verifiable evidence.
+2. `PROJECT-STATUS.md` and, when available locally, the current `PROJECT-CONTEXT.md` — summarized operational checkpoints for current status and immediate next work.
+3. `ROADMAP.md` — sequence, priorities, future direction, planned labs, investment policy, safety standards, and professional direction.
+4. Relevant lab, module, or course materials and documentation — specific context when applicable, always interpreted against the directly verified state.
+5. Conversation history and memory — supporting context only, not a source of truth when verifiable evidence exists.
 
-Do not rely on conversation memory alone when repository evidence can verify the answer.
+When sources conflict, the directly verified state takes precedence and the summarized checkpoint should be corrected. Do not rely on conversation memory alone when verifiable evidence can answer the question.
 
 ## 2. New conversation continuity
 
