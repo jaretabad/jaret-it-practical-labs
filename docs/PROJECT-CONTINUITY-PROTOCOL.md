@@ -1,6 +1,6 @@
 # Project Continuity Protocol — Jaret IT Practical Labs
 
-Last updated: 2026-08-08
+Last updated: 2026-09-08
 
 This protocol defines how work in the Jaret IT / Cloud / Systems / Cybersecurity portfolio should continue across conversations, devices, and future study blocks without losing context or repeating completed work.
 
@@ -8,7 +8,7 @@ This protocol defines how work in the Jaret IT / Cloud / Systems / Cybersecurity
 
 Before meaningful work, use these sources in this order:
 
-1. Directly verifiable current state — relevant files and repository working tree, Git/GitHub state, platforms, accounts, resources, and relevant technical evidence. Validated lab documentation and Git history are part of this verifiable evidence.
+1. Directly verifiable current state — relevant files and repository working tree, Git/GitHub state, platforms, accounts, resources, and relevant technical evidence. Validated lab documentation and Git history are part of that verifiable evidence.
 2. `PROJECT-STATUS.md` and, when available locally, the current `PROJECT-CONTEXT.md` — summarized operational checkpoints for current status and immediate next work.
 3. `ROADMAP.md` — sequence, priorities, future direction, planned labs, investment policy, safety standards, and professional direction.
 4. Relevant lab, module, or course materials and documentation — specific context when applicable, always interpreted against the directly verified state.
@@ -51,14 +51,36 @@ Default teaching style:
 - Provide interview-ready explanations when the topic is likely to appear in interviews.
 - Prefer understanding over blind automation.
 
-## 5. Platform and tooling preference
+## 5. Course and module conversation structure
+
+For structured courses such as the Google IT Support Professional Certificate, use **one operational conversation per course module by default** when the course is divided into modules.
+
+A new module conversation is a continuation of the same course and project, not a reset.
+
+Before starting a new module conversation:
+
+- confirm the previous module checkpoint and current course status;
+- preserve completed work, useful conclusions, and unresolved weaknesses;
+- continue the established study, evaluation, interview-preparation, and documentation method;
+- do not repeat completed lessons or prerequisite material unless a targeted review is necessary; and
+- identify the next safe learning step from the current verified state.
+
+Keep module-specific transcripts, explanations, active recall, quizzes, troubleshooting scenarios, interview preparation, review notes, and related study material inside that module's conversation whenever practical.
+
+When a module requires a final study PDF or other completion artifact, complete and review that artifact before marking the module **Completed** when doing so is part of the established course workflow.
+
+Start the next module in a new operational conversation when the prior module is complete. This prevents excessively long conversations from reducing usability while preserving continuity through the project's source-of-truth system.
+
+This is an organizational standard, not a reason to create unnecessary conversations for very small or unstructured learning blocks. When a course is not meaningfully divided into modules, use the smallest conversation structure that preserves clarity without adding maintenance overhead.
+
+## 6. Platform and tooling preference
 
 - Prefer Windows for hands-on labs when it is the most appropriate environment.
 - Prefer PowerShell or terminal workflows when they improve repeatability, visibility, or learning value.
 - GUI workflows are acceptable when they are the correct enterprise workflow or materially improve understanding.
 - Chromebook/mobile may be used for planning, documentation, GitHub review, research, and lightweight work when local Windows execution is unnecessary.
 
-## 6. Safety and privacy
+## 7. Safety and privacy
 
 Before commands or configuration changes:
 
@@ -70,7 +92,7 @@ Before commands or configuration changes:
 
 Never publish secrets, passwords, tokens, API keys, tenant IDs, subscription IDs, or other sensitive identifiers.
 
-## 7. Cloud and paid-resource gate
+## 8. Cloud and paid-resource gate
 
 Before creating a tenant, subscription, paid license, cloud resource, sandbox, or consumption-based service, evaluate:
 
@@ -87,7 +109,7 @@ Before creating a tenant, subscription, paid license, cloud resource, sandbox, o
 
 Do not reject a resource solely because it costs money, and do not activate it solely because it looks useful.
 
-## 8. Portfolio integrity
+## 9. Portfolio integrity
 
 Public portfolio claims must remain strictly accurate.
 
@@ -103,7 +125,7 @@ Do not describe simulations as production employment experience.
 
 Only mark a skill/project Completed after execution, validation, documentation, and review.
 
-## 9. Git workflow
+## 10. Git workflow
 
 Before repository changes:
 
@@ -117,7 +139,7 @@ Before repository changes:
 
 Do not commit private raw evidence or local-only context files intended to remain private.
 
-## 10. When to update continuity documents
+## 11. When to update continuity documents
 
 Update `PROJECT-STATUS.md` when any of these occurs:
 
@@ -132,7 +154,7 @@ Update `PROJECT-STATUS.md` when any of these occurs:
 
 Update this protocol only when the working method itself changes.
 
-## 11. Improvement rule
+## 12. Improvement rule
 
 The workflow is not fixed forever.
 
