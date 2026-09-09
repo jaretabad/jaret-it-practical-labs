@@ -25,7 +25,8 @@ The work is designed to build practical, explainable, and transferable skills fo
 | Lab 02 — Network Troubleshooting Casebook | **Completed** |
 | Google IT Support Professional Certificate | **In Progress** |
 | Course 2 — The Bits and Bytes of Computer Networking | **Completed** |
-| Module 01 — Enterprise Identity & Microsoft Cloud Foundations | **Next** |
+| Course 3 — Operating Systems and You: Becoming a Power User | **Next / Ready to Start** |
+| Module 01 — Enterprise Identity & Microsoft Cloud Foundations | **Queued / Ready After Current Coursera Priority** |
 | Lab 03 — Enterprise Identity Lifecycle & Access Control Simulation | **Planned / Not Started** |
 | Mini-Module S1 — Microsoft Excel for IT Support Operations | **Planned / Not Started** |
 | Lab S1 — Help Desk Ticket Lifecycle Simulation | **Planned / Not Started** |
