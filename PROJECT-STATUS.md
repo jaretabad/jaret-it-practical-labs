@@ -1,6 +1,6 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-08-08
+Last updated: 2026-09-08
 
 ## Purpose
 
@@ -46,11 +46,11 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Lab 01 — Windows Diagnostic Toolkit
 - Lab 02 — Network Troubleshooting Casebook
 - Google IT Support Professional Certificate — Course 1: Technical Support Fundamentals
+- Google IT Support Professional Certificate — Course 2: The Bits and Bytes of Computer Networking
 
 ### In progress
 
 - Google IT Support Professional Certificate
-- Course 2 — The Bits and Bytes of Computer Networking
 
 ### Next / ready to start
 
@@ -62,7 +62,7 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Mini-Module S1 — Microsoft Excel for IT Support Operations
 - Lab S1 — Help Desk Ticket Lifecycle Simulation
 
-The Support Operations Track is complementary and must not replace or delay the main Course 2 -> Module 01 -> Lab 03 progression.
+The Support Operations Track is complementary and must not replace or delay the main Module 01 -> Lab 03 progression. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
 
 ## Cloud/resource status
 
@@ -102,7 +102,7 @@ Current preferred working method:
 
 Main sequence currently remains:
 
-`Course 2 (In Progress) -> Module 01 (Next) -> Lab 03 (Planned)`
+`Course 2 (Completed) -> Module 01 (Next) -> Lab 03 (Planned)`
 
 Parallel optional/complementary work:
 
@@ -112,7 +112,7 @@ The Support Operations Track may receive limited parallel study time but should 
 
 ## Current next action
 
-Continue Google IT Support Course 2 while preparing to begin **Module 01 — Enterprise Identity & Microsoft Cloud Foundations** under the existing safety, cost, privacy, and documentation rules.
+Begin **Module 01 — Enterprise Identity & Microsoft Cloud Foundations** while continuing the remaining Google IT Support Professional Certificate coursework.
 
 Before starting any paid/cloud setup for Module 01, confirm the current learning objective and evaluate the safest minimum viable environment.
 

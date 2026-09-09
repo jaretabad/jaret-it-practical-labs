@@ -24,7 +24,7 @@ The work is designed to build practical, explainable, and transferable skills fo
 | Lab 01 — Windows Diagnostic Toolkit | **Completed** |
 | Lab 02 — Network Troubleshooting Casebook | **Completed** |
 | Google IT Support Professional Certificate | **In Progress** |
-| Course 2 — The Bits and Bytes of Computer Networking | **In Progress** |
+| Course 2 — The Bits and Bytes of Computer Networking | **Completed** |
 | Module 01 — Enterprise Identity & Microsoft Cloud Foundations | **Next** |
 | Lab 03 — Enterprise Identity Lifecycle & Access Control Simulation | **Planned / Not Started** |
 | Mini-Module S1 — Microsoft Excel for IT Support Operations | **Planned / Not Started** |
@@ -79,7 +79,7 @@ Lab 02 applies a structured, layered troubleshooting method to controlled networ
 
 ## Support Operations Track
 
-The Support Operations Track is a complementary path for developing practical skills in Help Desk operations, ticket lifecycle management, Excel-based support reporting, prioritization, escalation, troubleshooting documentation, and operational metrics. It will run in parallel with the primary roadmap and will not replace or delay the Google IT Support Professional Certificate, Course 2, Module 01, or Lab 03.
+The Support Operations Track is a complementary path for developing practical skills in Help Desk operations, ticket lifecycle management, Excel-based support reporting, prioritization, escalation, troubleshooting documentation, and operational metrics. It will run in parallel with the primary roadmap and will not replace or delay the Google IT Support Professional Certificate, Module 01, or Lab 03.
 
 ### Mini-Module S1 — Microsoft Excel for IT Support Operations
 

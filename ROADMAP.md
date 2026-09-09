@@ -26,11 +26,11 @@ The objective is to develop practical, explainable, and transferable skills for 
 
 - **Lab 01 — Windows Diagnostic Toolkit**
 - **Lab 02 — Network Troubleshooting Casebook**
+- **Course 2 — The Bits and Bytes of Computer Networking**
 
 ### In Progress
 
 - **Google IT Support Professional Certificate**
-- **Course 2 — The Bits and Bytes of Computer Networking**
 
 ### Next
 
@@ -87,7 +87,7 @@ Apply PowerShell and Microsoft Graph to repeatable administration, reporting, va
 
 ## Support Operations Track
 
-This complementary track develops practical Help Desk operations, ticket lifecycle management, and Excel-based reporting skills. It runs in parallel with the primary Cloud, Systems, Identity and SaaS roadmap and does not replace, renumber, or delay the Google IT Support Professional Certificate, Course 2, Module 01, Lab 03, or the main Lab 01–12 sequence.
+This complementary track develops practical Help Desk operations, ticket lifecycle management, and Excel-based reporting skills. It runs in parallel with the primary Cloud, Systems, Identity and SaaS roadmap and does not replace, renumber, or delay the Google IT Support Professional Certificate, Module 01, Lab 03, or the main Lab 01–12 sequence.
 
 | ID | Module or Lab | Status |
 |---|---|---|
@@ -164,7 +164,7 @@ This work must be described honestly as **hands-on learning**, a **self-directed
 
 - The Support Operations Track runs in parallel with the primary roadmap.
 - It must not delay the main roadmap.
-- The Google IT Support Professional Certificate, Course 2, Module 01, and Lab 03 keep their current priority.
+- The Google IT Support Professional Certificate, Module 01, and Lab 03 keep their current priority.
 - The complementary track may receive approximately one study session per week.
 - Actual timing may be adjusted according to workload and learning progress.
 
