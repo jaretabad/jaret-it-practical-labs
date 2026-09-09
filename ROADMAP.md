@@ -32,13 +32,19 @@ The objective is to develop practical, explainable, and transferable skills for 
 
 - **Google IT Support Professional Certificate**
 
-### Next
+### Next / Ready to Start
+
+- **Course 3 — Operating Systems and You: Becoming a Power User**
+
+### Queued / Ready After Current Coursera Priority
 
 - **Module 01 — Enterprise Identity & Microsoft Cloud Foundations**
 
 ### Planned / Not Started
 
 - **Lab 03 — Enterprise Identity Lifecycle & Access Control Simulation**
+
+The current operating priority is to continue the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Module 01 remains ready and queued rather than cancelled or superseded.
 
 ## Lab Sequence
 
@@ -164,7 +170,10 @@ This work must be described honestly as **hands-on learning**, a **self-directed
 
 - The Support Operations Track runs in parallel with the primary roadmap.
 - It must not delay the main roadmap.
-- The Google IT Support Professional Certificate, Module 01, and Lab 03 keep their current priority.
+- The Google IT Support Professional Certificate is the current immediate learning priority.
+- Course 3 is **Next / Ready to Start**.
+- Module 01 remains **Queued / Ready After Current Coursera Priority**.
+- Lab 03 remains **Planned / Not Started**.
 - The complementary track may receive approximately one study session per week.
 - Actual timing may be adjusted according to workload and learning progress.
 
