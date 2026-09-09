@@ -1,6 +1,6 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-09-08
+Last updated: 2026-09-09
 
 ## Purpose
 
@@ -54,6 +54,10 @@ The work must continue to be represented as hands-on learning, self-directed lab
 
 ### Next / ready to start
 
+- Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User
+
+### Queued / ready after current Coursera priority
+
 - Module 01 — Enterprise Identity & Microsoft Cloud Foundations
 
 ### Planned / not started
@@ -62,7 +66,7 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Mini-Module S1 — Microsoft Excel for IT Support Operations
 - Lab S1 — Help Desk Ticket Lifecycle Simulation
 
-The Support Operations Track is complementary and must not replace or delay the main Module 01 -> Lab 03 progression. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
+The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
 
 ## Cloud/resource status
 
@@ -102,7 +106,7 @@ Current preferred working method:
 
 Main sequence currently remains:
 
-`Course 2 (Completed) -> Module 01 (Next) -> Lab 03 (Planned)`
+`Course 2 (Completed) -> Course 3 (Next / Ready to Start) -> Module 01 (Queued) -> Lab 03 (Planned)`
 
 Parallel optional/complementary work:
 
@@ -112,9 +116,9 @@ The Support Operations Track may receive limited parallel study time but should 
 
 ## Current next action
 
-Begin **Module 01 — Enterprise Identity & Microsoft Cloud Foundations** while continuing the remaining Google IT Support Professional Certificate coursework.
+Begin **Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User** using the established one-operational-conversation-per-module workflow.
 
-Before starting any paid/cloud setup for Module 01, confirm the current learning objective and evaluate the safest minimum viable environment.
+Module 01 remains ready and queued after the current Coursera priority. Before starting any paid/cloud setup for Module 01, confirm the current learning objective and evaluate the safest minimum viable environment.
 
 ## Continuity rule
 
