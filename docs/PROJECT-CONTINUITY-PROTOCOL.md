@@ -1,6 +1,6 @@
 # Project Continuity Protocol — Jaret IT Practical Labs
 
-Last updated: 2026-09-08
+Last updated: 2026-09-25
 
 This protocol defines how work in the Jaret IT / Cloud / Systems / Cybersecurity portfolio should continue across conversations, devices, and future study blocks without losing context or repeating completed work.
 
@@ -66,6 +66,20 @@ Before starting a new module conversation:
 - identify the next safe learning step from the current verified state.
 
 Keep module-specific transcripts, explanations, active recall, quizzes, troubleshooting scenarios, interview preparation, review notes, and related study material inside that module's conversation whenever practical.
+
+### Lesson-title-driven course study
+
+For structured course study, the exact lesson title may be used as the sequencing source when a transcript is unavailable or unnecessary. Transcripts are optional study inputs rather than a prerequisite for continuing.
+
+Teaching should preserve the course's expected terminology and quiz alignment while expanding the lesson with technically accurate, current, practical knowledge relevant to IT Support, Systems Administration, Cloud, Identity, SaaS, and Security.
+
+When verified course material simplifies a concept, uses older terminology, or differs from current technical practice, distinguish clearly between:
+
+- **Course/Quiz Answer** — what the course expects for its own assessments;
+- **Technical Clarification** — the more precise technical explanation; and
+- **Production Reality** — how the concept is commonly handled in current real-world environments.
+
+Do not attribute external knowledge, corrections, or inferred lesson content to the course unless it has been verified in course material. Use transcripts when exact wording, instructor claims, ambiguous lesson scope, or quiz-specific framing needs verification.
 
 When a module requires a final study PDF or other completion artifact, complete and review that artifact before marking the module **Completed** when doing so is part of the established course workflow.
 
