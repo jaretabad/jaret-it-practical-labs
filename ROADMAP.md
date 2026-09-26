@@ -22,6 +22,8 @@ The objective is to develop practical, explainable, and transferable skills for 
 
 ## Current Status
 
+For the authoritative current operational checkpoint, use `PROJECT-STATUS.md`. This roadmap remains the planning source for sequence, priorities, future direction, and long-term learning strategy.
+
 ### Completed
 
 - **Lab 01 — Windows Diagnostic Toolkit**
@@ -31,10 +33,8 @@ The objective is to develop practical, explainable, and transferable skills for 
 ### In Progress
 
 - **Google IT Support Professional Certificate**
-
-### Next / Ready to Start
-
 - **Course 3 — Operating Systems and You: Becoming a Power User**
+  - **Module 1 — Basic Commands**
 
 ### Queued / Ready After Current Coursera Priority
 
@@ -171,7 +171,7 @@ This work must be described honestly as **hands-on learning**, a **self-directed
 - The Support Operations Track runs in parallel with the primary roadmap.
 - It must not delay the main roadmap.
 - The Google IT Support Professional Certificate is the current immediate learning priority.
-- Course 3 is **Next / Ready to Start**.
+- Course 3 is **In Progress**; Module 1 — Basic Commands is the active course module.
 - Module 01 remains **Queued / Ready After Current Coursera Priority**.
 - Lab 03 remains **Planned / Not Started**.
 - The complementary track may receive approximately one study session per week.
