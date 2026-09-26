@@ -1,6 +1,6 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-09-09
+Last updated: 2026-09-25
 
 ## Purpose
 
@@ -51,10 +51,8 @@ The work must continue to be represented as hands-on learning, self-directed lab
 ### In progress
 
 - Google IT Support Professional Certificate
-
-### Next / ready to start
-
 - Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User
+  - Module 1 — Basic Commands
 
 ### Queued / ready after current Coursera priority
 
@@ -66,7 +64,7 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Mini-Module S1 — Microsoft Excel for IT Support Operations
 - Lab S1 — Help Desk Ticket Lifecycle Simulation
 
-The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
+The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Course 3 is active, with Module 1 — Basic Commands currently in progress. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
 
 ## Cloud/resource status
 
@@ -87,6 +85,8 @@ Current preferred working method:
 - Keep important technical terms in English and explain them briefly.
 - Include practical IT Support / Systems Administration examples.
 - Include interview-ready explanations when useful.
+- For structured course study, the exact lesson title may be used as the sequencing source; transcripts are optional unless exact course wording, instructor claims, or quiz alignment need verification.
+- Preserve course/quiz alignment while expanding lessons with technically accurate, current, practical knowledge. When the course simplifies or differs from modern practice, distinguish **Course/Quiz Answer**, **Technical Clarification**, and **Production Reality**.
 - Prefer Windows for practical labs when appropriate.
 - Prefer PowerShell/terminal workflows over GUI-only workflows when they improve learning or repeatability.
 - Work one safe, practical step at a time.
@@ -106,7 +106,7 @@ Current preferred working method:
 
 Main sequence currently remains:
 
-`Course 2 (Completed) -> Course 3 (Next / Ready to Start) -> Module 01 (Queued) -> Lab 03 (Planned)`
+`Course 2 (Completed) -> Course 3 (In Progress; Module 1 — Basic Commands) -> Module 01 (Queued) -> Lab 03 (Planned)`
 
 Parallel optional/complementary work:
 
@@ -116,7 +116,7 @@ The Support Operations Track may receive limited parallel study time but should 
 
 ## Current next action
 
-Begin **Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User** using the established one-operational-conversation-per-module workflow.
+Continue **Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User**, currently **Module 1 — Basic Commands**, using the established one-operational-conversation-per-module workflow and the lesson-title-driven study method. Use transcripts when they add value or are needed for exact course wording; they are not required for routine lesson progression.
 
 Module 01 remains ready and queued after the current Coursera priority. Before starting any paid/cloud setup for Module 01, confirm the current learning objective and evaluate the safest minimum viable environment.
 
