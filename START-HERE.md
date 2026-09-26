@@ -29,6 +29,8 @@ Role fit should be evaluated against demonstrated capabilities, learning potenti
 
 ## Current verified status
 
+For the current project-wide learning and operational checkpoint, see [PROJECT-STATUS.md](PROJECT-STATUS.md). The section below documents the validated Lab 01 baseline and should not be read as the complete current project status.
+
 Lab 01 produced and executed a PowerShell diagnostic toolkit against a Windows 11 64-bit test endpoint without changing Windows configuration. Its privacy hardening was validated: public connectivity output uses fixed, sanitized messages, while complete exception details are restricted to private evidence.
 
 The controlled validation completed on July 21, 2026 established the planned point-in-time technical baseline:
