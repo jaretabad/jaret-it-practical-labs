@@ -47,16 +47,17 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Lab 02 — Network Troubleshooting Casebook
 - Google IT Support Professional Certificate — Course 1: Technical Support Fundamentals
 - Google IT Support Professional Certificate — Course 2: The Bits and Bytes of Computer Networking
+- Google IT Support Professional Certificate — Course 3, Module 1: Basic Commands
 
 ### In progress
 
 - Google IT Support Professional Certificate
 - Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User
-  - Module 1 — Basic Commands: **Coursework Completed / Final Study PDF Pending**
+  - Module 1 — Basic Commands: **Completed**
   - Completed Qwiklabs activities:
     - Creating, Modifying, and Removing Files and Folders in Windows
     - Linux commands hands-on activity
-  - Final Module 1 PDF scope: omit detailed coverage of these routine Qwiklabs unless a later review identifies a specific technical lesson worth preserving; completion may be noted briefly.
+  - Final Module 1 study PDF: completed and QA-reviewed as a private study artifact; routine Qwiklabs were intentionally summarized rather than documented step-by-step.
 
 ### Queued / ready after current Coursera priority
 
@@ -68,7 +69,7 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Mini-Module S1 — Microsoft Excel for IT Support Operations
 - Lab S1 — Help Desk Ticket Lifecycle Simulation
 
-The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Course 3 is active. Module 1 — Basic Commands has completed its coursework and graded review; the remaining closure step is the final study PDF before starting the next module conversation. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
+The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Course 3 is active. Module 1 — Basic Commands is completed, including coursework, graded review, Qwiklabs activities, glossary review, and the final study PDF. The next Course 3 module should begin in a new operational conversation using its exact Coursera module title. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
 
 ## Cloud/resource status
 
@@ -110,7 +111,7 @@ Current preferred working method:
 
 Main sequence currently remains:
 
-`Course 2 (Completed) -> Course 3 (In Progress; Module 1 coursework completed / final PDF pending) -> Module 01 (Queued) -> Lab 03 (Planned)`
+`Course 2 (Completed) -> Course 3 (In Progress; Module 1 Completed) -> next Course 3 module -> Module 01 (Queued) -> Lab 03 (Planned)`
 
 Parallel optional/complementary work:
 
@@ -120,7 +121,7 @@ The Support Operations Track may receive limited parallel study time but should 
 
 ## Current next action
 
-Close **Google IT Support Professional Certificate — Course 3, Module 1: Basic Commands** by creating and reviewing the final study PDF using the established MUST KNOW / RECOGNIZE / REFERENCE structure. After that closure artifact is complete, begin the next Course 3 module in a new operational conversation using its exact Coursera module title.
+Begin the **next Google IT Support Professional Certificate — Course 3 module** in a new operational conversation using the exact Coursera module title. Preserve Module 1 as completed and do not repeat it unless a targeted review is needed.
 
 Module 01 remains ready and queued after the current Coursera priority. Before starting any paid/cloud setup for Module 01, confirm the current learning objective and evaluate the safest minimum viable environment.
 
