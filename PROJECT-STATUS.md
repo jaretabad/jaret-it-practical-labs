@@ -52,8 +52,8 @@ The work must continue to be represented as hands-on learning, self-directed lab
 
 - Google IT Support Professional Certificate
 - Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User
-  - Module 1 — Basic Commands
-  - Completed Qwiklabs activities in the current module:
+  - Module 1 — Basic Commands: **Coursework Completed / Final Study PDF Pending**
+  - Completed Qwiklabs activities:
     - Creating, Modifying, and Removing Files and Folders in Windows
     - Linux commands hands-on activity
   - Final Module 1 PDF scope: omit detailed coverage of these routine Qwiklabs unless a later review identifies a specific technical lesson worth preserving; completion may be noted briefly.
@@ -68,7 +68,7 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Mini-Module S1 — Microsoft Excel for IT Support Operations
 - Lab S1 — Help Desk Ticket Lifecycle Simulation
 
-The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Course 3 is active, with Module 1 — Basic Commands currently in progress. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
+The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Course 3 is active. Module 1 — Basic Commands has completed its coursework and graded review; the remaining closure step is the final study PDF before starting the next module conversation. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
 
 ## Cloud/resource status
 
@@ -110,7 +110,7 @@ Current preferred working method:
 
 Main sequence currently remains:
 
-`Course 2 (Completed) -> Course 3 (In Progress; Module 1 — Basic Commands) -> Module 01 (Queued) -> Lab 03 (Planned)`
+`Course 2 (Completed) -> Course 3 (In Progress; Module 1 coursework completed / final PDF pending) -> Module 01 (Queued) -> Lab 03 (Planned)`
 
 Parallel optional/complementary work:
 
@@ -120,7 +120,7 @@ The Support Operations Track may receive limited parallel study time but should 
 
 ## Current next action
 
-Continue **Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User**, currently **Module 1 — Basic Commands**, using the established one-operational-conversation-per-module workflow and the lesson-title-driven study method. Use transcripts when they add value or are needed for exact course wording; they are not required for routine lesson progression.
+Close **Google IT Support Professional Certificate — Course 3, Module 1: Basic Commands** by creating and reviewing the final study PDF using the established MUST KNOW / RECOGNIZE / REFERENCE structure. After that closure artifact is complete, begin the next Course 3 module in a new operational conversation using its exact Coursera module title.
 
 Module 01 remains ready and queued after the current Coursera priority. Before starting any paid/cloud setup for Module 01, confirm the current learning objective and evaluate the safest minimum viable environment.
 
