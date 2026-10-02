@@ -34,7 +34,7 @@ For the authoritative current operational checkpoint, use `PROJECT-STATUS.md`. T
 
 - **Google IT Support Professional Certificate**
 - **Course 3 — Operating Systems and You: Becoming a Power User**
-  - **Module 1 — Basic Commands**
+  - **Module 1 — Basic Commands: Coursework Completed / Final Study PDF Pending**
 
 ### Queued / Ready After Current Coursera Priority
 
@@ -171,7 +171,7 @@ This work must be described honestly as **hands-on learning**, a **self-directed
 - The Support Operations Track runs in parallel with the primary roadmap.
 - It must not delay the main roadmap.
 - The Google IT Support Professional Certificate is the current immediate learning priority.
-- Course 3 is **In Progress**; Module 1 — Basic Commands is the active course module.
+- Course 3 is **In Progress**; Module 1 — Basic Commands has completed coursework and is awaiting its final study PDF before the next module begins.
 - Module 01 remains **Queued / Ready After Current Coursera Priority**.
 - Lab 03 remains **Planned / Not Started**.
 - The complementary track may receive approximately one study session per week.
