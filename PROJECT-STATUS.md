@@ -1,6 +1,6 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-09-25
+Last updated: 2026-10-02
 
 ## Purpose
 
@@ -53,6 +53,10 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Google IT Support Professional Certificate
 - Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User
   - Module 1 — Basic Commands
+  - Completed Qwiklabs activities in the current module:
+    - Creating, Modifying, and Removing Files and Folders in Windows
+    - Linux commands hands-on activity
+  - Final Module 1 PDF scope: omit detailed coverage of these routine Qwiklabs unless a later review identifies a specific technical lesson worth preserving; completion may be noted briefly.
 
 ### Queued / ready after current Coursera priority
 
