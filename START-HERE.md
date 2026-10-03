@@ -1,25 +1,82 @@
-# Jaret Abad - IT Infrastructure Practical Labs
+# Start Here — Jaret IT Practical Labs
 
-This portfolio documents hands-on technical labs that turn formal IT training into reproducible, privacy-conscious work. It focuses on observing systems, testing hypotheses, documenting results, and communicating technical findings without exposing endpoint or network identifiers.
+This repository documents Jaret's hands-on progression from IT Support fundamentals into Systems Administration, Cloud, Identity, SaaS operations, and Cybersecurity.
 
-## Professional direction
+The goal of this file is simple: show a human reviewer or future project conversation **where to look for the right information without guessing**.
 
-The portfolio is designed to demonstrate transferable skills relevant to realistic entry-level opportunities across:
+## If you want the current state
 
-- IT support and technical support;
-- NOC and network operations;
-- data center operations;
-- systems administration;
-- infrastructure and cloud operations;
-- identity and access management; and
-- entry-level security.
+Open:
 
-Role fit should be evaluated against demonstrated capabilities, learning potential, mentorship, compensation, benefits, and long-term growth rather than a single job title.
+**[`PROJECT-STATUS.md`](PROJECT-STATUS.md)**
 
-## Portfolio navigation
+It is the sole repository authority for detailed current operational state, including:
 
-- [Portfolio overview](README.md)
-- [Project roadmap](ROADMAP.md)
+- active course/module/lab;
+- completed learning blocks;
+- immediate next action;
+- current cloud/resource state; and
+- meaningful current constraints.
+
+## If you want the long-term plan
+
+Open:
+
+**[`ROADMAP.md`](ROADMAP.md)**
+
+It defines:
+
+- sequence and priorities;
+- planned labs;
+- learning phases;
+- Support Operations Track direction;
+- tool/investment strategy; and
+- long-term professional development path.
+
+The roadmap intentionally does not duplicate detailed module-by-module current progress.
+
+## If you want to understand why a major choice was made
+
+Open:
+
+**[`DECISIONS.md`](DECISIONS.md)**
+
+It records material decisions worth preserving across conversations and future stages.
+
+Routine lesson progress and temporary next steps do not belong there.
+
+## If you want the working rules
+
+Open:
+
+**[`docs/PROJECT-CONTINUITY-PROTOCOL.md`](docs/PROJECT-CONTINUITY-PROTOCOL.md)**
+
+It defines:
+
+- Source-of-Truth priority;
+- continuity across conversations/devices;
+- course/module operating method;
+- module completion and Study PDF closeout;
+- troubleshooting/lab workflow;
+- privacy and evidence rules;
+- cloud/paid-resource gates;
+- Git workflow; and
+- documentation drift control.
+
+## If you are an automated repository agent
+
+Open:
+
+**[`AGENTS.md`](AGENTS.md)**
+
+It is a compact execution entry point and references the canonical project documents above.
+
+## Portfolio projects
+
+### Lab 01 — Windows Diagnostic Toolkit
+
+A completed hands-on Windows diagnostic project focused on structured PowerShell evidence collection, layered connectivity checks, least-privilege execution, privacy-aware output, support documentation, and reproducibility.
+
 - [Lab 01 guide](01_Windows_Diagnostic_Toolkit/README.md)
 - [Lab 01 case study](01_Windows_Diagnostic_Toolkit/evidence/Lab-01-Case-Study.md)
 - [Sanitized endpoint-baseline ticket](01_Windows_Diagnostic_Toolkit/evidence/HD-001-Endpoint-Baseline.md)
@@ -27,45 +84,49 @@ Role fit should be evaluated against demonstrated capabilities, learning potenti
 - [Completed redaction checklist](01_Windows_Diagnostic_Toolkit/evidence/Redaction-Checklist-Completed.md)
 - [Script SHA-256 record](01_Windows_Diagnostic_Toolkit/evidence/Script-SHA256.txt)
 
-## Current verified status
+### Lab 02 — Network Troubleshooting Casebook
 
-For the current project-wide learning and operational checkpoint, see [PROJECT-STATUS.md](PROJECT-STATUS.md). The section below documents the validated Lab 01 baseline and should not be read as the complete current project status.
+A completed troubleshooting project focused on layered network diagnosis across TCP/IP, DHCP, gateway reachability, DNS, routing, and application-port connectivity.
 
-Lab 01 produced and executed a PowerShell diagnostic toolkit against a Windows 11 64-bit test endpoint without changing Windows configuration. Its privacy hardening was validated: public connectivity output uses fixed, sanitized messages, while complete exception details are restricted to private evidence.
+- [Lab 02 guide](02_Network_Troubleshooting_Casebook/README.md)
 
-The controlled validation completed on July 21, 2026 established the planned point-in-time technical baseline:
+## How learning work becomes portfolio evidence
 
-- DNS resolution: `PASS`
-- HTTPS port reachability: `PASS`
-- TCP/IP loopback: `PASS`
-- Default gateway reachability: `PASS`
-- All planned public summary sections were generated
-- No Windows configuration changes were made
+Not every course exercise or guided lab should become a public portfolio project.
 
-Storage remained above the defined free-space threshold, all three Windows Firewall profiles were enabled, and Windows Security was visually checked to confirm that Bitdefender was active. Microsoft Defender separately reported `SxS Passive Mode`. Eleven automatic services were observed not running; this remains an observation rather than proof of failure. The event-log review was limited by time and record count.
+A stronger portfolio artifact normally adds value through one or more of these:
 
-Lab 01 therefore demonstrates validated privacy hardening and a completed point-in-time endpoint baseline. It does not claim continuous endpoint health beyond the validation period.
+- independent troubleshooting;
+- reproducible commands or scripts;
+- evidence-based diagnosis;
+- meaningful configuration or validation;
+- architecture/design reasoning;
+- safe automation;
+- technical documentation;
+- realistic support scenarios; or
+- a clear explanation of what was learned, tested, and verified.
 
-## What Lab 01 demonstrates
-
-- PowerShell scripting for structured diagnostic collection.
-- Layered connectivity testing and separation of observed facts from hypotheses.
-- Threshold-based storage review without publishing unnecessary device metrics.
-- A time- and count-limited sample of system events rather than a complete event-log review.
-- A Microsoft Defender-specific status query interpreted alongside a separate visual confirmation that Bitdefender was active.
-- Separation of private evidence from sanitized, employer-facing documentation.
-- Creation of a support ticket, case study, redaction record, public connectivity dataset, and reproducible script hash.
-
-## How to review this portfolio
-
-1. Begin with the [project roadmap](ROADMAP.md) for the broader progression.
-2. Read the [Lab 01 guide](01_Windows_Diagnostic_Toolkit/README.md) for scope, safety, and reproduction instructions.
-3. Review the [case study](01_Windows_Diagnostic_Toolkit/evidence/Lab-01-Case-Study.md) for the investigation narrative.
-4. Compare the narrative with the sanitized ticket, connectivity dataset, completed redaction checklist, and script hash linked above.
-5. Treat unresolved results as open technical questions unless later evidence establishes a cause.
+Routine guided exercises may remain private study evidence.
 
 ## Publication standard
 
-Public evidence should show the problem, observations, hypotheses, commands or methods, relevant results, conclusion, and next verification. It must not expose personal paths, account or device names, private IP addresses, gateway or DNS server values, MAC addresses, SSIDs, serial numbers, email addresses, credentials, tokens, private keys, or unreviewed log messages.
+Public artifacts should communicate the problem, method, relevant evidence, conclusion, and verification without exposing sensitive information.
 
-Private source evidence and personal study material are intentionally excluded from the employer-facing portfolio.
+Do not publish:
+
+- credentials, tokens, or private keys;
+- personal/account/device identifiers;
+- email addresses;
+- serial numbers;
+- unnecessary private/public IP or network details;
+- unreviewed raw logs;
+- tenant/subscription IDs; or
+- private customer/user data.
+
+Keep original private evidence separate from sanitized employer-facing artifacts.
+
+## Project continuity rule
+
+A new chat, browser, device, course module, or lab does **not** mean restarting the project.
+
+Use the repository's current Source of Truth, preserve completed work, and continue from the latest verified safe checkpoint.
