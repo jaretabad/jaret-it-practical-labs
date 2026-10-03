@@ -7,8 +7,8 @@ Before meaningful work:
 1. Inspect directly verifiable current state first: Git/GitHub, repository files/history, platforms/accounts/resources when accessible, and relevant technical evidence.
 2. Read `PROJECT-STATUS.md` for the detailed current operational checkpoint and immediate next action.
 3. Read `ROADMAP.md` for sequence, priorities, future direction, and planned labs/tracks.
-4. Read `DECISIONS.md` for material decisions already made.
-5. Read `docs/PROJECT-CONTINUITY-PROTOCOL.md` for durable workflow, course/module rules, safety, privacy, Git, cost, and documentation-drift controls.
+4. Read `docs/PROJECT-CONTINUITY-PROTOCOL.md` for durable workflow, course/module rules, safety, privacy, Git, cost, and documentation-drift controls.
+5. Read `DECISIONS.md` for material decisions already made.
 6. Consult relevant course/module/lab documentation when applicable.
 7. Use conversation history and memory only as supporting context when stronger verifiable sources exist.
 
@@ -16,8 +16,8 @@ Before meaningful work:
 
 - `PROJECT-STATUS.md` — sole repository authority for detailed current state.
 - `ROADMAP.md` — future sequence and priorities; do not duplicate routine module progress here.
-- `DECISIONS.md` — material decisions, not transient status.
 - `docs/PROJECT-CONTINUITY-PROTOCOL.md` — durable operating rules.
+- `DECISIONS.md` — material decisions, not transient status.
 - `README.md` — stable public portfolio orientation.
 - `START-HERE.md` — human navigation map.
 - `PROJECT-CONTEXT.md` — optional local/private context and must remain uncommitted.
