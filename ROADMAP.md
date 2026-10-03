@@ -2,91 +2,128 @@
 
 > **Professional journey:** Jaret Cloud & Systems Administration Journey — Microsoft 365, Azure, Identity & SaaS
 
-This roadmap is the primary planning source for the portfolio. It builds on the completed Windows and network troubleshooting labs while establishing a focused progression toward cloud administration, enterprise identity, SaaS operations, automation, security, and compliance.
+## Purpose and authority
 
-## Professional Direction
+This file is the **planning source** for sequence, priorities, future direction, learning phases, planned labs, and tool/investment strategy.
 
-The portfolio is evolving from foundational Windows diagnostics and network troubleshooting toward practical administration across:
+It is **not** the detailed current-status tracker.
 
-- Microsoft 365 administration
-- Microsoft Entra ID
-- Microsoft Intune
-- Microsoft Defender
-- Microsoft Azure
-- SaaS administration
-- PowerShell and Microsoft Graph
-- Enterprise IT operations
-- Security and compliance foundations
+For the authoritative current operational checkpoint, active course/module, immediate next action, and live resource state, use [`PROJECT-STATUS.md`](PROJECT-STATUS.md).
 
-The objective is to develop practical, explainable, and transferable skills for cloud support, systems administration, identity operations, endpoint management, SaaS administration, and related enterprise IT roles. All work will remain evidence-based and will clearly distinguish hands-on lab experience from production employment.
+Material decisions already made belong in [`DECISIONS.md`](DECISIONS.md). Durable execution and continuity rules belong in [`docs/PROJECT-CONTINUITY-PROTOCOL.md`](docs/PROJECT-CONTINUITY-PROTOCOL.md).
 
-## Current Status
+## Professional direction
 
-For the authoritative current operational checkpoint, use `PROJECT-STATUS.md`. This roadmap remains the planning source for sequence, priorities, future direction, and long-term learning strategy.
+The portfolio progresses from foundational IT Support and infrastructure troubleshooting toward practical administration across:
 
-### Completed
+- Microsoft 365 administration;
+- Microsoft Entra ID;
+- Microsoft Intune;
+- Microsoft Defender;
+- Microsoft Azure;
+- SaaS administration and integrations;
+- PowerShell and Microsoft Graph;
+- identity and access management;
+- enterprise IT operations; and
+- security and compliance foundations.
 
-- **Lab 01 — Windows Diagnostic Toolkit**
-- **Lab 02 — Network Troubleshooting Casebook**
-- **Course 2 — The Bits and Bytes of Computer Networking**
+The objective is to develop practical, explainable, transferable skills for IT Support, Cloud Support, Systems Administration, Identity Operations, Endpoint Management, SaaS Administration, and related security roles.
 
-### In Progress
+## Strategic sequence
 
-- **Google IT Support Professional Certificate**
-- **Course 3 — Operating Systems and You: Becoming a Power User**
-  - **Module 1 — Basic Commands: Completed**
-  - **Next Course 3 module: Ready to begin in a new operational conversation once its exact Coursera title is confirmed**
+The primary path remains:
 
-### Queued / Ready After Current Coursera Priority
+`IT Support foundations → Windows → Networking → Operating Systems → Enterprise Identity → Microsoft 365 / Entra ID → Endpoint Management → Azure → SaaS / Integrations → Automation → Security / Capstone`
 
-- **Module 01 — Enterprise Identity & Microsoft Cloud Foundations**
+The Google IT Support Professional Certificate remains the current foundational course path. Detailed module-level progress is intentionally maintained only in `PROJECT-STATUS.md` to avoid documentation drift.
 
-### Planned / Not Started
+## Lab sequence
 
-- **Lab 03 — Enterprise Identity Lifecycle & Access Control Simulation**
-
-The current operating priority is to continue the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Module 01 remains ready and queued rather than cancelled or superseded.
-
-## Lab Sequence
-
-| Lab | Project | Status |
+| Lab | Project | Roadmap role |
 |---:|---|---|
-| 01 | Windows Diagnostic Toolkit | **Completed** |
-| 02 | Network Troubleshooting Casebook | **Completed** |
-| 03 | Enterprise Identity Lifecycle & Access Control Simulation | **Planned / Not Started** |
-| 04 | Microsoft 365 and Entra Tenant Administration | **Future** |
-| 05 | Microsoft 365 Service Operations Casebook | **Future** |
-| 06 | Intune Endpoint Compliance and Application Deployment | **Future** |
-| 07 | MFA and Conditional Access Change Plan | **Future** |
-| 08 | Azure Resource Governance and RBAC | **Future** |
-| 09 | Azure Network and VM Troubleshooting | **Future** |
-| 10 | SaaS SSO and Provisioning Architecture | **Future** |
-| 11 | Microsoft Graph PowerShell Administration Toolkit | **Future** |
-| 12 | Cloud and SaaS Administration Capstone | **Future** |
+| 01 | Windows Diagnostic Toolkit | Completed foundation |
+| 02 | Network Troubleshooting Casebook | Completed foundation |
+| 03 | Enterprise Identity Lifecycle & Access Control Simulation | Next major identity lab after prerequisites |
+| 04 | Microsoft 365 and Entra Tenant Administration | Future |
+| 05 | Microsoft 365 Service Operations Casebook | Future |
+| 06 | Intune Endpoint Compliance and Application Deployment | Future |
+| 07 | MFA and Conditional Access Change Plan | Future |
+| 08 | Azure Resource Governance and RBAC | Future |
+| 09 | Azure Network and VM Troubleshooting | Future |
+| 10 | SaaS SSO and Provisioning Architecture | Future |
+| 11 | Microsoft Graph PowerShell Administration Toolkit | Future |
+| 12 | Cloud and SaaS Administration Capstone | Future |
 
-The sequence may be refined when platform availability, prerequisites, cost, or learning dependencies justify a change. Any adjustment should preserve the progression from foundations to administration, integration, automation, and capstone work.
+The sequence may be refined when prerequisites, platform availability, cost, job-market relevance, or learning dependencies justify a change. Any material sequence change should be recorded here and, when it represents a durable decision, in `DECISIONS.md`.
 
-## Learning Phases
+## Learning phases
 
 ### Phase 0 — Bridge from IT Support to Cloud Administration
 
-Connect completed Windows and network troubleshooting experience to enterprise support workflows, cloud service models, identity fundamentals, administrative boundaries, and shared-responsibility concepts.
+Connect Windows, networking, operating-system, troubleshooting, user/account, and support workflow fundamentals to enterprise support, cloud service models, identity, and administrative boundaries.
 
 ### Phase 1 — Microsoft 365 and Entra Administration Core
 
-Build practical foundations in Microsoft 365 administration, Microsoft Entra ID, identity lifecycle operations, groups, roles, authentication, access control, licensing concepts, and service administration.
+Develop foundations in:
+
+- Microsoft 365 administration;
+- Microsoft Entra ID;
+- identity lifecycle;
+- users and groups;
+- roles and least privilege;
+- authentication;
+- access control;
+- licensing concepts; and
+- service administration.
+
+The planned bridge into this phase is:
+
+**Module 01 — Enterprise Identity & Microsoft Cloud Foundations**
+
+followed by:
+
+**Lab 03 — Enterprise Identity Lifecycle & Access Control Simulation**
 
 ### Phase 2 — Endpoint Management and Enterprise Operations
 
-Develop experience with Microsoft Intune, endpoint compliance, application deployment, Microsoft Defender, service operations, change planning, validation, rollback, escalation, and operational documentation.
+Develop practical experience with:
+
+- Microsoft Intune;
+- endpoint compliance;
+- application deployment;
+- Microsoft Defender;
+- service operations;
+- change planning;
+- validation;
+- rollback; and
+- operational documentation.
 
 ### Phase 3 — Azure Administration Core
 
-Practice Azure resource organization, subscriptions and resource groups, governance, role-based access control (RBAC), virtual machines, storage, networking, monitoring, cost awareness, and controlled resource cleanup.
+Practice:
+
+- subscriptions and resource groups;
+- governance;
+- Azure RBAC;
+- virtual machines;
+- storage;
+- networking;
+- monitoring;
+- cost awareness; and
+- controlled cleanup.
 
 ### Phase 4 — Identity, SaaS and Enterprise Integrations
 
-Explore single sign-on (SSO), provisioning, federation concepts, enterprise applications, SaaS administration, access reviews, lifecycle controls, and integration architecture.
+Explore:
+
+- SSO;
+- provisioning;
+- federation concepts;
+- enterprise applications;
+- access reviews;
+- lifecycle controls;
+- SaaS administration; and
+- integration architecture.
 
 ### Phase 5 — Automation, Security and Capstone
 
@@ -94,24 +131,26 @@ Apply PowerShell and Microsoft Graph to repeatable administration, reporting, va
 
 ## Support Operations Track
 
-This complementary track develops practical Help Desk operations, ticket lifecycle management, and Excel-based reporting skills. It runs in parallel with the primary Cloud, Systems, Identity and SaaS roadmap and does not replace, renumber, or delay the Google IT Support Professional Certificate, Module 01, Lab 03, or the main Lab 01–12 sequence.
+This complementary track develops practical Help Desk operations, ticket lifecycle management, and Excel-based reporting skills.
 
-| ID | Module or Lab | Status |
+It runs in parallel with the primary roadmap and does not replace or delay the Google IT Support Professional Certificate, Module 01, Lab 03, or the main Lab 01–12 sequence unless an intentional roadmap decision is made.
+
+| ID | Module or Lab | Purpose |
 |---|---|---|
-| Mini-Module S1 | Microsoft Excel for IT Support Operations | **Planned / Not Started** |
-| Lab S1 | Help Desk Ticket Lifecycle Simulation | **Planned / Not Started** |
+| Mini-Module S1 | Microsoft Excel for IT Support Operations | Develop practical support reporting and analysis skills |
+| Lab S1 | Help Desk Ticket Lifecycle Simulation | Practice realistic ticket intake, troubleshooting, escalation, resolution, and documentation |
 
-All capabilities in this track remain **planned learning** until the relevant block has been completed, reviewed, and verified. Microsoft Excel, PivotTables, dashboards, and ticketing systems must not be presented as demonstrated skills before that validation.
+Live status for this track belongs in `PROJECT-STATUS.md`.
 
 ### Mini-Module S1 — Microsoft Excel for IT Support Operations
 
-Mini-Module S1 will develop Excel skills from Basic to Intermediate through practical IT Support reporting tasks, including:
+Planned capabilities include:
 
 - Excel Tables;
-- sorting and filters;
+- sorting and filtering;
 - essential formulas;
 - `IF`;
-- `COUNTIF` and `COUNTIFS`;
+- `COUNTIF` / `COUNTIFS`;
 - `XLOOKUP`;
 - `IFERROR`;
 - conditional formatting;
@@ -120,19 +159,11 @@ Mini-Module S1 will develop Excel skills from Basic to Intermediate through prac
 - PivotCharts when useful; and
 - a small IT Support operations dashboard.
 
-The planned outcome is a sanitized IT Support workbook that can organize and report operational measures such as:
-
-- tickets by category;
-- tickets by priority;
-- open versus resolved tickets;
-- escalated tickets;
-- resolution-time metrics;
-- technician workload; and
-- common issue types.
+Potential sanitized outputs include ticket-category summaries, priority reporting, open/resolved counts, escalation metrics, resolution-time analysis, workload reporting, and common-issue analysis.
 
 ### Lab S1 — Help Desk Ticket Lifecycle Simulation
 
-Lab S1 will simulate a controlled Help Desk workflow covering:
+Planned workflow:
 
 - ticket intake;
 - categorization;
@@ -140,117 +171,91 @@ Lab S1 will simulate a controlled Help Desk workflow covering:
 - urgency;
 - priority;
 - troubleshooting notes;
+- escalation;
 - resolution;
-- user confirmation;
-- documentation; and
-- escalation.
+- user confirmation; and
+- closure documentation.
 
-When appropriate, Lab S1 will apply the knowledge, workbook structure, formulas, reporting methods, and validation practices developed in Mini-Module S1. All users, technicians, devices, tickets, and operational data must be fictional and sanitized.
+All users, technicians, devices, tickets, and operational data must be fictional or fully sanitized.
 
-### Portfolio Evidence
+## Portfolio evidence strategy
 
-Mini-Module S1 and Lab S1 may produce reviewed portfolio evidence such as:
+Useful reviewed artifacts may include:
 
-- a sanitized Excel workbook;
-- a sample ticket dataset;
-- a ticket register;
-- a priority matrix;
-- an escalation matrix;
-- troubleshooting notes;
-- resolution summaries;
-- dashboard screenshots;
-- PivotTable or reporting evidence;
-- a data dictionary;
-- a README;
-- a case study; and
-- a knowledge-base article or runbook.
+- sanitized scripts and command output;
+- troubleshooting case studies;
+- support tickets;
+- diagrams;
+- runbooks;
+- sanitized datasets;
+- Excel workbooks;
+- priority/escalation matrices;
+- knowledge-base articles;
+- screenshots with sensitive data removed; and
+- README documentation that explains what was actually performed.
 
-This work must be described honestly as **hands-on learning**, a **self-directed project**, a **simulated Help Desk environment**, or **Support Operations portfolio work**. It must not be presented as professional production experience.
+Portfolio evidence must remain honest: labs, simulations, guided course work, and self-directed projects are not production employment experience.
 
-### Scheduling and Priority
+## Preserved foundations and reclassified themes
 
-- The Support Operations Track runs in parallel with the primary roadmap.
-- It must not delay the main roadmap.
-- The Google IT Support Professional Certificate is the current immediate learning priority.
-- Course 3 is **In Progress**; Module 1 — Basic Commands is **Completed**. The next Course 3 module should begin in a new operational conversation using its exact Coursera title.
-- Module 01 remains **Queued / Ready After Current Coursera Priority**.
-- Lab 03 remains **Planned / Not Started**.
-- The complementary track may receive approximately one study session per week.
-- Actual timing may be adjusted according to workload and learning progress.
+The current cloud, systems, identity, and SaaS roadmap supersedes the older infrastructure-first roadmap as the primary planning source, but completed work and useful future themes remain preserved.
 
-### Tool Evaluation
+Reclassification does **not** imply completion.
 
-Before choosing Excel licensing, ticketing platforms, SaaS tools, courses, or paid labs for this track, evaluate:
-
-- current availability;
-- total and recurring cost;
-- practical learning value;
-- limitations;
-- portfolio usefulness;
-- relevance to job postings;
-- readiness;
-- lower-cost alternatives; and
-- risk of unexpected charges.
-
-Paid resources should be used only when their practical and professional value justifies the cost and the risk of unexpected charges is understood and controlled.
-
-## Tool and Investment Policy
-
-Tools, licenses, sandboxes, courses, and paid platforms will not be accepted or rejected solely because they have a cost. Each option will be evaluated before use according to:
-
-- current availability;
-- total cost;
-- recurring charges;
-- risk of unexpected costs;
-- practical learning value;
-- portfolio value;
-- relevance to real job postings;
-- timing; and
-- lower-cost alternatives.
-
-Paid resources will be used only when their professional value justifies the cost. Free tiers, trials, developer environments, simulations, and local alternatives should be considered when they can meet the same learning objective without materially reducing realism or portfolio value.
-
-Any paid or consumption-based resource must have a defined purpose, budget expectation, monitoring method, and exit or deletion plan before activation.
-
-## Safety and Portfolio Standards
-
-Every project in this roadmap should follow these standards:
-
-1. Do not publish credentials, secrets, tokens, personal identifiers, tenant identifiers, endpoint identifiers, private network values, raw logs, or other sensitive information.
-2. Sanitize all evidence before it is considered for public portfolio use.
-3. Do not present home labs or simulations as production work experience.
-4. Describe the work accurately as **hands-on labs**, **self-directed projects**, or **simulated enterprise environments**.
-5. Review pricing, recurring charges, usage limits, and deletion plans before activating cloud resources.
-6. Prefer safe, verifiable, reversible changes with documented validation and rollback criteria.
-7. Use least privilege and document when administrative access is required.
-8. Separate observed facts, interpretations, hypotheses, and unresolved questions.
-9. Preserve private evidence locally while publishing only the minimum reviewed evidence needed to support portfolio claims.
-10. Claim only results that were performed, validated, documented, and can be explained clearly.
-
-## Previous Roadmap Status
-
-The previous infrastructure roadmap is **superseded as the primary planning source** by this cloud, systems, identity, and SaaS roadmap. Its completed projects remain valid portfolio evidence, and its useful planned ideas have been reorganized rather than discarded.
-
-Previous concepts may be retained as:
-
-- **optional projects** when they add meaningful depth;
-- **supporting exercises** within a current lab;
-- **prerequisites** for cloud, identity, endpoint, or automation work; or
-- **future expansion** after the core roadmap is complete.
-
-Examples of preserved or reclassified themes include:
-
-| Previous theme | New role in the roadmap |
+| Earlier theme | Current role |
 |---|---|
 | Windows diagnostics and PowerShell troubleshooting | Completed foundation and supporting operational skill |
 | Network troubleshooting, DNS, routing, and service reachability | Completed foundation and prerequisite for Microsoft 365, SaaS, and Azure troubleshooting |
-| Windows accounts, groups, permissions, and least privilege | Reorganized into enterprise identity lifecycle and access-control work |
-| Linux support and administration | Optional project or future expansion for cloud and infrastructure breadth |
-| PowerShell onboarding and inventory automation | Expanded into Microsoft Graph PowerShell administration |
-| Packet analysis and protocol interpretation | Optional supporting exercise for network and security investigations |
-| Active Directory and Group Policy | Supporting prerequisite or future hybrid-identity expansion |
-| Backup, recovery, monitoring, and operational runbooks | Integrated into enterprise operations, Azure administration, and capstone validation |
-| Security baselines and introductory incident response | Integrated into Microsoft Defender, compliance foundations, and the capstone |
-| Small-business infrastructure capstone | Reframed as the Cloud and SaaS Administration Capstone |
+| Windows accounts, groups, permissions, and least privilege | Foundation for enterprise identity lifecycle and access-control work |
+| Linux support and administration | Supporting operating-system skill and possible future expansion for cloud/infrastructure breadth |
+| PowerShell onboarding and inventory automation | Future expansion toward Microsoft Graph PowerShell administration |
+| Packet analysis and protocol interpretation | Optional supporting exercise for networking and security investigations |
+| Active Directory and Group Policy | Supporting prerequisite / possible future hybrid-identity expansion |
+| Backup, recovery, monitoring, and operational runbooks | Integrated into enterprise operations, Azure administration, and capstone planning |
+| Security baselines and introductory incident response | Integrated into Microsoft Defender, compliance foundations, and future security work |
+| Small-business infrastructure capstone | Reframed into the Cloud and SaaS Administration Capstone |
 
-Reclassification does not imply completion. Only projects explicitly marked **Completed** should be presented as completed portfolio work.
+These themes may appear as prerequisites, optional projects, supporting exercises, or later expansions when they add meaningful professional value.
+
+## Tool and investment policy
+
+Before using paid tools, licenses, cloud subscriptions, sandboxes, courses, or consumption-based resources, evaluate:
+
+- current availability;
+- total and recurring cost;
+- unexpected-charge risk;
+- practical learning value;
+- portfolio value;
+- relevance to target roles;
+- readiness and prerequisites;
+- lower-cost alternatives;
+- monitoring; and
+- exit / deletion plan.
+
+Free tiers, trials, developer environments, simulations, and local alternatives should be considered when they meet the same learning objective without materially reducing realism or portfolio value.
+
+Paid resources may be used when the professional value justifies the cost; cost avoidance should not force unsafe or low-value learning choices.
+
+## Safety and portfolio standards
+
+1. Do not publish credentials, secrets, tokens, personal identifiers, tenant identifiers, subscription identifiers, endpoint identifiers, private network values, raw logs, or other sensitive information.
+2. Sanitize all evidence before public portfolio use.
+3. Do not present home labs, guided labs, or simulations as production work experience.
+4. Prefer safe, verifiable, reversible changes with documented verification and rollback where applicable.
+5. Use least privilege and document when administrative access is required.
+6. Separate observed facts, interpretations, hypotheses, course answers, and unresolved questions.
+7. Preserve private/raw evidence locally and publish only reviewed evidence needed to support portfolio claims.
+8. Claim only results that were performed, validated, documented, and can be explained clearly.
+
+## Roadmap maintenance rule
+
+Update this file only when one of the following materially changes:
+
+- sequence or priority between learning tracks;
+- planned lab/module structure;
+- long-term professional direction;
+- major tool/investment strategy;
+- a track is added, removed, or reclassified; or
+- future scope changes meaningfully.
+
+Routine lesson/module progress belongs only in `PROJECT-STATUS.md`.
