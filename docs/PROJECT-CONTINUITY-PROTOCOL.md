@@ -27,10 +27,10 @@ Before meaningful work, use these sources in order:
    - priorities;
    - future learning direction;
    - planned labs and tracks.
-4. **`DECISIONS.md`**
-   - material decisions already made and worth preserving.
-5. **This protocol**
+4. **This protocol**
    - durable working method, continuity, safety, privacy, Git, cost, and completion rules.
+5. **`DECISIONS.md`**
+   - material decisions already made and worth preserving.
 6. **Relevant course, module, lab, or portfolio documentation**
    - topic-specific context and evidence.
 7. **Conversation history and memory**
@@ -44,8 +44,8 @@ Keep these concerns separate:
 
 - `PROJECT-STATUS.md` — **sole repository authority for detailed current operational state**;
 - `ROADMAP.md` — future sequence, priorities, learning phases, and planned work;
-- `DECISIONS.md` — material decisions already made;
 - `docs/PROJECT-CONTINUITY-PROTOCOL.md` — durable working rules;
+- `DECISIONS.md` — material decisions already made;
 - `README.md` — stable public portfolio orientation;
 - `START-HERE.md` — human navigation and repository map;
 - `AGENTS.md` — compact repository-agent entry instructions;
@@ -84,9 +84,8 @@ Before asking Jaret to repeat progress:
 
 1. inspect the verifiable current state;
 2. read `PROJECT-STATUS.md`;
-3. reconcile with `ROADMAP.md`, `DECISIONS.md`, and this protocol;
-4. consult relevant module/lab documentation; and
-5. continue from the latest safe checkpoint.
+3. reconcile with `ROADMAP.md`, this protocol, `DECISIONS.md`, and relevant module/lab documentation;
+4. continue from the latest safe checkpoint.
 
 Do not restart completed labs, modules, setup, or documentation unless a specific later task genuinely requires a targeted refresh or extension.
 
