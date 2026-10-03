@@ -196,6 +196,27 @@ Useful reviewed artifacts may include:
 
 Portfolio evidence must remain honest: labs, simulations, guided course work, and self-directed projects are not production employment experience.
 
+## Preserved foundations and reclassified themes
+
+The current cloud, systems, identity, and SaaS roadmap supersedes the older infrastructure-first roadmap as the primary planning source, but completed work and useful future themes remain preserved.
+
+Reclassification does **not** imply completion.
+
+| Earlier theme | Current role |
+|---|---|
+| Windows diagnostics and PowerShell troubleshooting | Completed foundation and supporting operational skill |
+| Network troubleshooting, DNS, routing, and service reachability | Completed foundation and prerequisite for Microsoft 365, SaaS, and Azure troubleshooting |
+| Windows accounts, groups, permissions, and least privilege | Foundation for enterprise identity lifecycle and access-control work |
+| Linux support and administration | Supporting operating-system skill and possible future expansion for cloud/infrastructure breadth |
+| PowerShell onboarding and inventory automation | Future expansion toward Microsoft Graph PowerShell administration |
+| Packet analysis and protocol interpretation | Optional supporting exercise for networking and security investigations |
+| Active Directory and Group Policy | Supporting prerequisite / possible future hybrid-identity expansion |
+| Backup, recovery, monitoring, and operational runbooks | Integrated into enterprise operations, Azure administration, and capstone planning |
+| Security baselines and introductory incident response | Integrated into Microsoft Defender, compliance foundations, and future security work |
+| Small-business infrastructure capstone | Reframed into the Cloud and SaaS Administration Capstone |
+
+These themes may appear as prerequisites, optional projects, supporting exercises, or later expansions when they add meaningful professional value.
+
 ## Tool and investment policy
 
 Before using paid tools, licenses, cloud subscriptions, sandboxes, courses, or consumption-based resources, evaluate:
