@@ -1,114 +1,212 @@
 # Project Continuity Protocol — Jaret IT Practical Labs
 
-Last updated: 2026-09-25
+Last updated: 2026-10-03
 
-This protocol defines how work in the Jaret IT / Cloud / Systems / Cybersecurity portfolio should continue across conversations, devices, and future study blocks without losing context or repeating completed work.
+## Purpose
 
-## 1. Sources of truth
+This protocol defines the durable working method for the Jaret IT Support & Cybersecurity Career Lab so work can continue across conversations, devices, courses, labs, and future project stages without losing context, repeating completed work, or allowing documentation to drift unnecessarily.
 
-Before meaningful work, use these sources in this order:
+It intentionally does **not** store detailed current module progress. Current state belongs in `PROJECT-STATUS.md`.
 
-1. Directly verifiable current state — relevant files and repository working tree, Git/GitHub state, platforms, accounts, resources, and relevant technical evidence. Validated lab documentation and Git history are part of that verifiable evidence.
-2. `PROJECT-STATUS.md` and, when available locally, the current `PROJECT-CONTEXT.md` — summarized operational checkpoints for current status and immediate next work.
-3. `ROADMAP.md` — sequence, priorities, future direction, planned labs, investment policy, safety standards, and professional direction.
-4. Relevant lab, module, or course materials and documentation — specific context when applicable, always interpreted against the directly verified state.
-5. Conversation history and memory — supporting context only, not a source of truth when verifiable evidence exists.
+## 1. Source-of-Truth hierarchy
 
-When sources conflict, the directly verified state takes precedence and the summarized checkpoint should be corrected. Do not rely on conversation memory alone when verifiable evidence can answer the question.
+Before meaningful work, use these sources in order:
 
-## 2. New conversation continuity
+1. **Directly verifiable current state**
+   - Git / GitHub state;
+   - repository files and history;
+   - course/platform state when accessible;
+   - cloud/account/resource state;
+   - technical evidence and validated lab results.
+2. **`PROJECT-STATUS.md`** and, when available locally, **`PROJECT-CONTEXT.md`**
+   - summarized current checkpoint;
+   - active learning state;
+   - immediate next work.
+3. **`ROADMAP.md`**
+   - sequence;
+   - priorities;
+   - future learning direction;
+   - planned labs and tracks.
+4. **`DECISIONS.md`**
+   - material decisions already made and worth preserving.
+5. **This protocol**
+   - durable working method, continuity, safety, privacy, Git, cost, and completion rules.
+6. **Relevant course, module, lab, or portfolio documentation**
+   - topic-specific context and evidence.
+7. **Conversation history and memory**
+   - supporting context only when stronger verifiable sources exist.
 
-A new chat inside the same IT/career project is a continuation, not a reset.
+When sources conflict, prefer the strongest and most current verifiable evidence. Do not silently overwrite conflicting documentation; identify which document is stale and reconcile the correct authority.
 
-Before asking Jaret to repeat progress, determine the latest verified state from the sources above.
+## 2. Documentation authority boundaries
 
-Do not casually restart completed labs, repeat setup, or redesign the roadmap because a new conversation lacks old chat context.
+Keep these concerns separate:
 
-## 3. One-step execution model
+- `PROJECT-STATUS.md` — **sole repository authority for detailed current operational state**;
+- `ROADMAP.md` — future sequence, priorities, learning phases, and planned work;
+- `DECISIONS.md` — material decisions already made;
+- `docs/PROJECT-CONTINUITY-PROTOCOL.md` — durable working rules;
+- `README.md` — stable public portfolio orientation;
+- `START-HERE.md` — human navigation and repository map;
+- `AGENTS.md` — compact repository-agent entry instructions;
+- lab/module documentation — scope, procedures, evidence, results, and lessons specific to that work;
+- `PROJECT-CONTEXT.md` — optional local/private context intentionally excluded from Git.
 
-For labs and system changes, work one meaningful step at a time.
+Do not copy the same current-state detail into multiple documents merely for convenience.
 
-For each meaningful practical action, explain:
+### Documentation drift rule
 
-- Objective — what we are trying to accomplish.
-- Why — why the step matters professionally or technically.
-- Safety — whether it changes system state, requires admin rights, costs money, or could expose private data.
-- Action — the exact command or procedure.
-- Expected result — what should happen.
-- Verification — how to confirm success.
-- Evidence decision — whether anything should be saved for the portfolio and how it must be sanitized.
+Transient statements such as:
 
-Do not jump several risky steps ahead without verification.
+- "Module X is active";
+- "the next lesson is Y";
+- "this resource has not been created yet"; or
+- "the immediate next action is Z"
 
-## 4. Learning style
+belong in `PROJECT-STATUS.md`, not in durable or public orientation documents unless a brief generic reference is necessary.
 
-Default teaching style:
+Perform documentation reconciliation when:
 
-- Explain in Spanish.
-- Keep important technical terminology in English.
-- Give a short English definition for key terms when useful.
-- Connect theory to realistic IT Support, Cloud, Systems Administration, Identity, SaaS, and Security scenarios.
-- Provide interview-ready explanations when the topic is likely to appear in interviews.
-- Prefer understanding over blind automation.
+- a material course/module/lab closes;
+- a roadmap priority changes;
+- a contradiction is detected;
+- a new track is added or removed;
+- a resource/cost state materially changes; or
+- a repository milestone would otherwise leave documentation misleading.
 
-## 5. Course and module conversation structure
+Avoid elaborate documentation machinery whose maintenance cost exceeds the value it protects.
 
-For structured courses such as the Google IT Support Professional Certificate, use **one operational conversation per course module by default** when the course is divided into modules.
+## 3. New-conversation continuity
 
-A new module conversation is a continuation of the same course and project, not a reset.
+A new conversation or device does not reset the project.
 
-Before starting a new module conversation:
+Before asking Jaret to repeat progress:
 
-- confirm the previous module checkpoint and current course status;
-- preserve completed work, useful conclusions, and unresolved weaknesses;
-- continue the established study, evaluation, interview-preparation, and documentation method;
-- do not repeat completed lessons or prerequisite material unless a targeted review is necessary; and
-- identify the next safe learning step from the current verified state.
+1. inspect the verifiable current state;
+2. read `PROJECT-STATUS.md`;
+3. reconcile with `ROADMAP.md`, `DECISIONS.md`, and this protocol;
+4. consult relevant module/lab documentation; and
+5. continue from the latest safe checkpoint.
 
-Keep module-specific transcripts, explanations, active recall, quizzes, troubleshooting scenarios, interview preparation, review notes, and related study material inside that module's conversation whenever practical.
+Do not restart completed labs, modules, setup, or documentation unless a specific later task genuinely requires a targeted refresh or extension.
 
-### Lesson-title-driven course study
+## 4. Course and module operating model
 
-For structured course study, the exact lesson title may be used as the sequencing source when a transcript is unavailable or unnecessary. Transcripts are optional study inputs rather than a prerequisite for continuing.
+For structured courses such as the Google IT Support Professional Certificate, use **one operational conversation per course module by default** when the course has clear modules.
 
-Teaching should preserve the course's expected terminology and quiz alignment while expanding the lesson with technically accurate, current, practical knowledge relevant to IT Support, Systems Administration, Cloud, Identity, SaaS, and Security.
+A new module conversation continues the same course and project.
 
-When verified course material simplifies a concept, uses older terminology, or differs from current technical practice, distinguish clearly between:
+Before beginning a module:
 
-- **Course/Quiz Answer** — what the course expects for its own assessments;
-- **Technical Clarification** — the more precise technical explanation; and
-- **Production Reality** — how the concept is commonly handled in current real-world environments.
+- preserve prior completed modules and unresolved weak areas;
+- verify the current checkpoint;
+- confirm the exact module title when available;
+- wait for the lesson sequence provided by the course/user rather than pre-teaching future lessons without a reason.
 
-Do not attribute external knowledge, corrections, or inferred lesson content to the course unless it has been verified in course material. Use transcripts when exact wording, instructor claims, ambiguous lesson scope, or quiz-specific framing needs verification.
+### Lesson-title-driven study
 
-When a module requires a final study PDF or other completion artifact, complete and review that artifact before marking the module **Completed** when doing so is part of the established course workflow.
+The exact lesson title may be used as the sequencing source when it provides enough scope.
 
-Start the next module in a new operational conversation when the prior module is complete. This prevents excessively long conversations from reducing usability while preserving continuity through the project's source-of-truth system.
+A transcript is optional unless needed to:
 
-This is an organizational standard, not a reason to create unnecessary conversations for very small or unstructured learning blocks. When a course is not meaningfully divided into modules, use the smallest conversation structure that preserves clarity without adding maintenance overhead.
+- verify exact wording;
+- verify an instructor claim;
+- resolve ambiguous scope;
+- understand quiz-specific framing; or
+- distinguish Coursera wording from outside technical knowledge.
 
-## 6. Platform and tooling preference
+Teaching should preserve important industry terms in English while explaining them clearly in Spanish.
 
-- Prefer Windows for hands-on labs when it is the most appropriate environment.
-- Prefer PowerShell or terminal workflows when they improve repeatability, visibility, or learning value.
-- GUI workflows are acceptable when they are the correct enterprise workflow or materially improve understanding.
-- Chromebook/mobile may be used for planning, documentation, GitHub review, research, and lightweight work when local Windows execution is unnecessary.
+When course material simplifies, uses older terminology, or differs from current practice, separate:
 
-## 7. Safety and privacy
+- **Course/Quiz Answer** — what the course expects;
+- **Technical Clarification** — the more precise explanation; and
+- **Production Reality** — how the concept is commonly handled in current environments.
 
-Before commands or configuration changes:
+Do not attribute external knowledge to the course unless it has been verified from course material.
 
-- identify whether elevated/admin privileges are required;
-- prefer read-only inspection before modification;
-- define rollback/cleanup when applicable;
-- avoid exposing credentials, identifiers, raw logs, private IP/network details, or account information;
-- sanitize evidence before publication.
+### Module completion gate
 
-Never publish secrets, passwords, tokens, API keys, tenant IDs, subscription IDs, or other sensitive identifiers.
+Do not mark a module **Completed** merely because video lessons were viewed.
 
-## 8. Cloud and paid-resource gate
+Verify the work that actually exists for that module, such as:
 
-Before creating a tenant, subscription, paid license, cloud resource, sandbox, or consumption-based service, evaluate:
+- coursework / lessons;
+- graded review or quiz;
+- Qwiklabs / practical work when applicable;
+- glossary review;
+- unresolved weak areas; and
+- the established final Study PDF workflow when required for this course.
+
+The final Study PDF should be generated, visually QA-reviewed, and approved before the module checkpoint is finalized when that is part of the established workflow.
+
+## 5. Course-module closeout transaction
+
+Use this closeout sequence for major course modules:
+
+`Coursework → Quiz/graded review → Practical work when applicable → Glossary/weak-area review → Final Study PDF → Visual QA/review → Update PROJECT-STATUS → Verify repository state → Start next module in a new operational conversation`
+
+Do not update `ROADMAP.md` for ordinary module progression unless sequence or strategy actually changed.
+
+Do not update this protocol for routine progress.
+
+## 6. Lab and troubleshooting execution model
+
+For practical troubleshooting or configuration work, use:
+
+`Diagnosis → Remediation → Verification`
+
+When the result of one action determines the next, work one meaningful step at a time.
+
+For important commands/configuration changes, explain as applicable:
+
+- objective;
+- what the command queries or modifies;
+- why it is being used;
+- privileges required;
+- expected result;
+- verification;
+- risk;
+- rollback / cleanup;
+- sensitive data that may appear; and
+- whether evidence is worth preserving.
+
+Prefer read-only inspection first when practical.
+
+Avoid destructive, expensive, privileged, or difficult-to-reverse actions without appropriate warning and verification.
+
+## 7. Platform and tooling preferences
+
+- Prefer Windows for hands-on labs when it is the appropriate environment.
+- Prefer PowerShell / command line when they improve repeatability, visibility, learning, or interview value.
+- Include GUI workflows when they are the realistic enterprise path or materially aid understanding.
+- Chromebook/mobile may be used for study, planning, GitHub review, documentation, interviews, and tasks that do not require the local Windows environment.
+- Do not assume browser access can control the local Windows machine.
+
+## 8. Safety, privacy, and evidence
+
+Before publishing or sharing evidence, sanitize:
+
+- real usernames;
+- computer/device names;
+- email addresses;
+- public/private IP addresses when identifying;
+- gateway/DNS/network details when unnecessary;
+- MAC addresses;
+- serial numbers;
+- tenant/subscription/account IDs;
+- tokens, keys, credentials, secrets;
+- private paths;
+- sensitive logs; and
+- customer/private data.
+
+Keep raw/private evidence separate from public portfolio artifacts.
+
+Never present simulations, Qwiklabs, home labs, or self-directed projects as production employment experience.
+
+## 9. Cloud and paid-resource gate
+
+Before creating or activating a tenant, subscription, paid license, sandbox, cloud resource, or consumption-based service, evaluate:
 
 - current price;
 - free/trial alternatives;
@@ -116,18 +214,20 @@ Before creating a tenant, subscription, paid license, cloud resource, sandbox, o
 - overrun risk;
 - practical learning value;
 - portfolio evidence value;
-- relevance to target jobs;
+- target-job relevance;
 - readiness/prerequisites;
-- monitoring method;
+- monitoring method; and
 - cleanup/deletion plan.
 
 Do not reject a resource solely because it costs money, and do not activate it solely because it looks useful.
 
-## 9. Portfolio integrity
+Material decisions in this area may also belong in `DECISIONS.md`.
+
+## 10. Portfolio integrity
 
 Public portfolio claims must remain strictly accurate.
 
-Use labels such as:
+Appropriate labels include:
 
 - hands-on lab;
 - self-directed project;
@@ -135,44 +235,44 @@ Use labels such as:
 - support operations simulation;
 - portfolio project.
 
-Do not describe simulations as production employment experience.
+Only claim results that were actually executed, validated, documented, and can be explained in an interview.
 
-Only mark a skill/project Completed after execution, validation, documentation, and review.
+Routine guided labs should not automatically become portfolio projects. Promote them only when the work demonstrates meaningful technical skill, troubleshooting, design, analysis, automation, or documentation beyond simple guided execution.
 
-## 10. Git workflow
+## 11. Git workflow
 
 Before repository changes:
 
-1. Inspect current `main` state and relevant files.
-2. Avoid rewriting history unless there is a specific safe reason.
-3. Make focused changes.
-4. Review diffs and formatting.
-5. Commit with a clear message.
-6. Confirm the expected branch/upstream state when local Git is involved.
-7. Update `PROJECT-STATUS.md` after material milestones.
+1. inspect canonical `main` and relevant files;
+2. verify the change is actually needed;
+3. use a focused branch for multi-file or material reconciliation when practical;
+4. avoid force push or history rewriting unless explicitly justified;
+5. review changed files and diff;
+6. check for sensitive data;
+7. use clear commit/PR messaging;
+8. verify the canonical remote state after integration; and
+9. update `PROJECT-STATUS.md` only when the actual project state materially changed.
 
-Do not commit private raw evidence or local-only context files intended to remain private.
+Do not commit private raw evidence or `PROJECT-CONTEXT.md`.
 
-## 11. When to update continuity documents
+## 12. Material decisions
 
-Update `PROJECT-STATUS.md` when any of these occurs:
+Record a new entry in `DECISIONS.md` when a future conversation would benefit from knowing a durable choice and its rationale.
 
-- Course/module/lab status changes.
-- A roadmap priority changes.
-- A lab is completed or a new one becomes active.
-- A paid/cloud resource is created or removed.
-- A new complementary track is accepted.
-- A major repository milestone is published.
-- The current next action materially changes.
-- A safety/privacy/cost rule changes.
+Examples:
 
-Update this protocol only when the working method itself changes.
+- changing the canonical repository or Source-of-Truth model;
+- changing the primary career/learning direction;
+- accepting/removing a complementary track;
+- adopting a material paid platform strategy;
+- changing portfolio integrity standards; or
+- changing the module/lab operating model.
 
-## 12. Improvement rule
+Do not create decision entries for ordinary lesson completion, quiz answers, temporary blockers, or routine housekeeping.
 
-The workflow is not fixed forever.
+## 13. Improvement rule
 
-When repeated friction appears — lost context, duplicated work, unnecessary manual steps, unclear evidence, tool limitations, or avoidable cost — propose a process improvement.
+When repeated friction appears — lost context, duplicated status, unnecessary manual work, contradictory documentation, unclear evidence, tool limitations, or avoidable cost — improve the system that creates the friction when a simple fix is justified.
 
 Prefer improvements that:
 
@@ -180,7 +280,7 @@ Prefer improvements that:
 - preserve user understanding and control;
 - improve verification;
 - lower cost or risk;
-- make future conversations easier to continue;
-- preserve clean, professional portfolio evidence.
+- make future conversations easier to resume; and
+- keep portfolio evidence clean and professional.
 
-Process improvements should solve a real recurring problem, not add bureaucracy for its own sake.
+Avoid overengineering. A process change should solve a real recurring problem before adding maintenance burden.
