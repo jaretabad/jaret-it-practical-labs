@@ -1,45 +1,36 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-10-02
+Last updated: 2026-10-03
 
-## Purpose
+## Purpose and authority
 
-This file is the current-state checkpoint for Jaret's IT, Cloud, Systems Administration, Identity, SaaS, and Cybersecurity learning portfolio. It exists so work can continue across different conversations without rediscovering completed labs, current priorities, or operating rules.
+This file is the **sole repository authority for detailed current operational state** across Jaret's IT, Cloud, Systems Administration, Identity, SaaS, Support Operations, and Cybersecurity learning portfolio.
 
-First inspect the directly verifiable current state. Then use this file together with `ROADMAP.md` and `docs/PROJECT-CONTINUITY-PROTOCOL.md` before making meaningful changes.
+Use the Source-of-Truth order defined in `docs/PROJECT-CONTINUITY-PROTOCOL.md`. Directly verifiable system state takes precedence when available. This file summarizes the current checkpoint after that verification.
 
-## Repository state
+Do **not** duplicate module-by-module current progress in `README.md` or `ROADMAP.md`. Those documents should reference this file instead.
+
+## Canonical repository
 
 - Repository: `jaretabad/jaret-it-practical-labs`
 - Default branch: `main`
-- Repository visibility: public
-- Verified continuity baseline before the current alignment edits: `466b4a0` — `Add continuity instructions for repository agents`
-- Directly verified current state takes precedence if this summarized checkpoint becomes stale.
-- `ROADMAP.md` remains the primary planning source for sequence and long-term direction.
-- `PROJECT-STATUS.md` is the summarized operational checkpoint for current status and immediate next work.
+- Visibility: public
+- `PROJECT-CONTEXT.md` may exist locally and is intentionally excluded from Git.
+- Directly verified Git/system/platform state overrides this summary if they conflict.
 
-## Current professional direction
+## Professional direction
 
 Primary journey:
 
 **Jaret Cloud & Systems Administration Journey — Microsoft 365, Azure, Identity & SaaS**
 
-The portfolio is progressing from foundational IT support and networking toward:
+Current progression remains:
 
-- Microsoft 365 administration
-- Microsoft Entra ID
-- Microsoft Intune
-- Microsoft Defender
-- Microsoft Azure
-- SaaS administration and integrations
-- PowerShell and Microsoft Graph
-- identity and access management
-- enterprise IT operations
-- security and compliance foundations
+IT Support foundations → Windows troubleshooting → Networking → Operating Systems → Enterprise Identity → Microsoft 365 / Entra ID → Endpoint Management → Azure → SaaS Administration → Security / Cybersecurity.
 
-The work must continue to be represented as hands-on learning, self-directed labs, and simulated enterprise work — not production employment experience.
+All portfolio work must remain clearly represented as hands-on learning, self-directed labs, or simulated enterprise work rather than production employment experience.
 
-## Current learning status
+## Current learning checkpoint
 
 ### Completed
 
@@ -47,17 +38,18 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Lab 02 — Network Troubleshooting Casebook
 - Google IT Support Professional Certificate — Course 1: Technical Support Fundamentals
 - Google IT Support Professional Certificate — Course 2: The Bits and Bytes of Computer Networking
-- Google IT Support Professional Certificate — Course 3, Module 1: Basic Commands
-
-### In progress
-
-- Google IT Support Professional Certificate
 - Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User
   - Module 1 — Basic Commands: **Completed**
-  - Completed Qwiklabs activities:
-    - Creating, Modifying, and Removing Files and Folders in Windows
-    - Linux commands hands-on activity
-  - Final Module 1 study PDF: completed and QA-reviewed as a private study artifact; routine Qwiklabs were intentionally summarized rather than documented step-by-step.
+  - Module 2 — Users and Permissions: **Completed**
+
+### Active
+
+- Google IT Support Professional Certificate
+- Course 3 — Operating Systems and You: Becoming a Power User
+  - Module 3 — Package and Software Management: **Active / Ready to Begin**
+  - Operational conversation initialized.
+  - No Module 3 lesson has been taught in the current operational conversation yet.
+  - Next step is the first exact Coursera lesson title supplied by Jaret.
 
 ### Queued / ready after current Coursera priority
 
@@ -69,74 +61,94 @@ The work must continue to be represented as hands-on learning, self-directed lab
 - Mini-Module S1 — Microsoft Excel for IT Support Operations
 - Lab S1 — Help Desk Ticket Lifecycle Simulation
 
-The current priority is to continue advancing the Google IT Support Professional Certificate through Course 3 before beginning Module 01. Course 3 is active. Module 1 — Basic Commands is completed, including coursework, graded review, Qwiklabs activities, glossary review, and the final study PDF. The next Course 3 module should begin in a new operational conversation using its exact Coursera module title. The Support Operations Track remains complementary and must not replace or delay the current Coursera priority, Module 01, or Lab 03. Course 2 is completed and remains a networking foundation for future cloud and SaaS troubleshooting.
+## Course 3 checkpoint detail
 
-## Cloud/resource status
+### Module 1 — Basic Commands — Completed
+
+Completion included:
+
+- coursework / lesson study;
+- graded review;
+- Qwiklabs practical activities;
+- glossary review; and
+- final Module 1 study PDF, reviewed as a private study artifact.
+
+Routine guided Qwiklabs were intentionally not promoted into standalone public portfolio projects.
+
+### Module 2 — Users and Permissions — Completed
+
+User-confirmed closeout includes:
+
+- Windows users, administrators, groups, passwords, account lifecycle, and file permissions;
+- Linux users, `root` / `sudo`, passwords, account lifecycle, file permissions, `chmod`, `chown`, and `chgrp`;
+- SetUID, SetGID, and Sticky Bit;
+- Mobile Users and Accounts;
+- Windows ACL / DACL / SACL concepts;
+- `ICACLS` practical work in Qwiklabs;
+- Module 2 glossary review;
+- module review / quiz work; and
+- final Module 2 Study PDF created and reviewed as a private study artifact.
+
+This repository did not previously reflect that closeout; this reconciliation corrects the documented project state.
+
+### Module 3 — Package and Software Management — Active / Ready to Begin
+
+Study rules for the active module:
+
+- Coursera defines lesson sequence.
+- Exact lesson titles are sufficient by default; transcripts are optional unless exact wording, quiz framing, or instructor claims need verification.
+- Preserve **Course/Quiz Answer**, **Technical Clarification**, and **Production Reality** when the course simplifies or differs from current practice.
+- Do not mark the module completed until required coursework, graded review, practical work when applicable, glossary review, weak-area review, and final Study PDF workflow are complete.
+- The next module starts in a new operational conversation only after Module 3 closes and its checkpoint is finalized.
+
+## Current operating priority
+
+The immediate learning priority remains the Google IT Support Professional Certificate through Course 3.
+
+Strategic sequence:
+
+`Course 3 active → finish current Course 3 module(s) → Module 01 → Lab 03`
+
+Complementary track:
+
+`Mini-Module S1 → Lab S1`
+
+The Support Operations Track may receive limited parallel study time, but it must not replace or delay the primary Course 3 / Module 01 / Lab 03 sequence unless the roadmap is intentionally changed.
+
+## Cloud and paid-resource status
 
 At this checkpoint:
 
 - No Microsoft 365 tenant has been created for Module 01.
-- No Azure subscription/resources have been created for Module 01.
-- No paid cloud resources have been intentionally activated for Module 01.
-- No paid licensing decision should be made without first evaluating current price, recurring charges, practical learning value, portfolio value, and exit/deletion plan.
+- No Azure subscription or paid Azure resource has been intentionally created for Module 01.
+- No paid cloud licensing decision should be made without evaluating current price, recurring charges, practical learning value, portfolio value, safer alternatives, monitoring, and cleanup / deletion plan.
 
-This status must be updated when accounts, tenants, subscriptions, sandboxes, trials, or paid resources are actually created.
-
-## Learning and execution method
-
-Current preferred working method:
-
-- Spanish explanations first.
-- Keep important technical terms in English and explain them briefly.
-- Include practical IT Support / Systems Administration examples.
-- Include interview-ready explanations when useful.
-- For structured course study, the exact lesson title may be used as the sequencing source; transcripts are optional unless exact course wording, instructor claims, or quiz alignment need verification.
-- Preserve course/quiz alignment while expanding lessons with technically accurate, current, practical knowledge. When the course simplifies or differs from modern practice, distinguish **Course/Quiz Answer**, **Technical Clarification**, and **Production Reality**.
-- Prefer Windows for practical labs when appropriate.
-- Prefer PowerShell/terminal workflows over GUI-only workflows when they improve learning or repeatability.
-- Work one safe, practical step at a time.
-- Explain purpose, expected result, safety/privacy impact, and verification before meaningful lab actions.
-- Plan before executing changes.
-- Sanitize evidence before anything is published to GitHub.
+Update this section when the real account/resource state changes.
 
 ## Portfolio evidence standards
 
 - Never publish passwords, tokens, API keys, tenant IDs, subscription IDs, personal identifiers, private network values, raw sensitive logs, or secrets.
-- Keep private/raw evidence separate from reviewed public portfolio artifacts.
+- Keep private/raw evidence separate from reviewed public artifacts.
 - Claim only skills and results that were actually performed, validated, documented, and can be explained.
-- Do not inflate accomplishments or present simulated work as professional production experience.
-- Preserve completed labs; do not redo them unless a later lab genuinely requires a prerequisite refresh or extension.
+- Do not present labs, Qwiklabs, simulations, or self-directed projects as production employment experience.
+- Preserve completed labs and study artifacts; do not redo them unless a later task genuinely requires a targeted refresh or extension.
 
-## Current roadmap checkpoint
+## Immediate next action
 
-Main sequence currently remains:
+Continue the official Course 3 Module 3 operational conversation.
 
-`Course 2 (Completed) -> Course 3 (In Progress; Module 1 Completed) -> next Course 3 module -> Module 01 (Queued) -> Lab 03 (Planned)`
+**Next safe step:** Jaret provides the first exact Coursera lesson title for **Module 3 — Package and Software Management**. No lesson content should be pre-taught before that title is supplied.
 
-Parallel optional/complementary work:
+## Documentation update rule
 
-`Mini-Module S1 -> Lab S1`
+Update this file when a material current-state change occurs, including:
 
-The Support Operations Track may receive limited parallel study time but should not become the primary path unless the roadmap is intentionally revised.
+- a course, module, lab, or meaningful study block starts or completes;
+- the immediate next action changes;
+- a roadmap priority materially changes;
+- a paid/cloud resource is created, removed, or becomes financially relevant;
+- a meaningful repository milestone is published;
+- a new track is activated or retired; or
+- a current safety/privacy constraint changes.
 
-## Current next action
-
-Begin the **next Google IT Support Professional Certificate — Course 3 module** in a new operational conversation using the exact Coursera module title. Preserve Module 1 as completed and do not repeat it unless a targeted review is needed.
-
-Module 01 remains ready and queued after the current Coursera priority. Before starting any paid/cloud setup for Module 01, confirm the current learning objective and evaluate the safest minimum viable environment.
-
-## Continuity rule
-
-A new conversation inside this career/IT project must not start from zero.
-
-Before asking Jaret to repeat established progress, inspect the directly verifiable current state in the relevant files and repository working tree, Git/GitHub, platforms, accounts, resources, and technical evidence. Then reconcile that state with this file, the current local `PROJECT-CONTEXT.md` when available, `ROADMAP.md`, and any relevant lab, module, or course documentation. Use conversation history and memory only as supporting context when verifiable evidence exists.
-
-Update this file whenever a material state change occurs, including:
-
-- a course/module/lab starts or completes;
-- roadmap priority changes;
-- a new paid tool, tenant, subscription, or cloud resource is created;
-- a major repository milestone is committed;
-- a new track is added or removed;
-- a meaningful safety/privacy rule changes;
-- the immediate next action changes.
+Do not update `README.md`, `ROADMAP.md`, or durable governance files merely to mirror routine current progress.
