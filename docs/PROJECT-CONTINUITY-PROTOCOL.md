@@ -1,6 +1,6 @@
 # Project Continuity Protocol — Jaret IT Practical Labs
 
-Last updated: 2026-10-03
+Last updated: 2026-10-09
 
 ## Purpose
 
@@ -38,13 +38,16 @@ Before meaningful work, use these sources in order:
 
 When sources conflict, prefer the strongest and most current verifiable evidence. Do not silently overwrite conflicting documentation; identify which document is stale and reconcile the correct authority.
 
+`docs/CHATGPT-PROJECT-INSTRUCTIONS.md` governs ChatGPT's extended teaching, execution, documentation, and career-support behavior. It complements this Source-of-Truth hierarchy but does not override the canonical authority assigned to project-state, roadmap, decision, course, lab, or technical evidence sources.
+
 ## 2. Documentation authority boundaries
 
 Keep these concerns separate:
 
 - `PROJECT-STATUS.md` — **sole repository authority for detailed current operational state**;
 - `ROADMAP.md` — future sequence, priorities, learning phases, and planned work;
-- `docs/PROJECT-CONTINUITY-PROTOCOL.md` — durable working rules;
+- `docs/PROJECT-CONTINUITY-PROTOCOL.md` — durable project continuity and working rules;
+- `docs/CHATGPT-PROJECT-INSTRUCTIONS.md` — extended version-controlled ChatGPT operating policy;
 - `DECISIONS.md` — material decisions already made;
 - `README.md` — stable public portfolio orientation;
 - `START-HERE.md` — human navigation and repository map;
@@ -52,7 +55,24 @@ Keep these concerns separate:
 - lab/module documentation — scope, procedures, evidence, results, and lessons specific to that work;
 - `PROJECT-CONTEXT.md` — optional local/private context intentionally excluded from Git.
 
-Do not copy the same current-state detail into multiple documents merely for convenience.
+Do not copy the same current-state detail or durable rule into multiple documents merely for convenience.
+
+### ChatGPT instruction architecture
+
+ChatGPT uses a two-layer instruction model:
+
+1. local Project Instructions — compact always-loaded bootstrap needed before repository access;
+2. `docs/CHATGPT-PROJECT-INSTRUCTIONS.md` — extended canonical policy for meaningful project work.
+
+The local bootstrap should remain small and should not mirror the extended policy. New durable ChatGPT operating rules normally belong in the GitHub policy unless they must be available before GitHub can be consulted or they change the instruction/authority architecture itself.
+
+For meaningful ChatGPT work, use progressive context loading:
+
+`Local bootstrap → verify current state → PROJECT-STATUS.md → extended ChatGPT policy → only the additional canonical documents relevant to the task`
+
+Do not solve the local instruction-size limit by loading every repository document into every conversation. Load context progressively so task-relevant reasoning space is preserved.
+
+Transient current-state information does not belong in either instruction layer.
 
 ### Documentation drift rule
 
@@ -84,8 +104,9 @@ Before asking Jaret to repeat progress:
 
 1. inspect the verifiable current state;
 2. read `PROJECT-STATUS.md`;
-3. reconcile with `ROADMAP.md`, this protocol, `DECISIONS.md`, and relevant module/lab documentation;
-4. continue from the latest safe checkpoint.
+3. for meaningful ChatGPT work, read `docs/CHATGPT-PROJECT-INSTRUCTIONS.md`;
+4. reconcile with `ROADMAP.md`, this protocol, `DECISIONS.md`, and relevant module/lab documentation as needed;
+5. continue from the latest safe checkpoint.
 
 Do not restart completed labs, modules, setup, or documentation unless a specific later task genuinely requires a targeted refresh or extension.
 
@@ -271,7 +292,7 @@ Do not create decision entries for ordinary lesson completion, quiz answers, tem
 
 ## 13. Improvement rule
 
-When repeated friction appears — lost context, duplicated status, unnecessary manual work, contradictory documentation, unclear evidence, tool limitations, or avoidable cost — improve the system that creates the friction when a simple fix is justified.
+When repeated friction appears — lost context, duplicated status, unnecessary manual work, contradictory documentation, unclear evidence, tool limitations, instruction-size pressure, or avoidable cost — improve the system that creates the friction when a simple fix is justified.
 
 Prefer improvements that:
 
