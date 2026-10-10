@@ -1,6 +1,6 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-10-03
+Last updated: 2026-10-09
 
 ## Purpose and authority
 
@@ -46,10 +46,14 @@ All portfolio work must remain clearly represented as hands-on learning, self-di
 
 - Google IT Support Professional Certificate
 - Course 3 — Operating Systems and You: Becoming a Power User
-  - Module 3 — Package and Software Management: **Active / Ready to Begin**
-  - Operational conversation initialized.
-  - No Module 3 lesson has been taught in the current operational conversation yet.
-  - Next step is the first exact Coursera lesson title supplied by Jaret.
+  - Module 3 — Package and Software Management: **In Progress**
+  - Operational conversation active.
+  - Lesson study completed in this conversation so far:
+    - Windows: Software Packages
+    - Supplemental Reading for Windows Software Packages
+    - Linux: Software Packages
+  - A package-management practical reinforcement mini-lab is intentionally deferred until enough related lessons exist to form a higher-value workflow rather than an isolated command exercise.
+  - Next step: continue with the next exact Coursera lesson title supplied by Jaret.
 
 ### Queued / ready after current Coursera priority
 
@@ -89,17 +93,34 @@ User-confirmed closeout includes:
 - module review / quiz work; and
 - final Module 2 Study PDF created and reviewed as a private study artifact.
 
-This repository did not previously reflect that closeout; this reconciliation corrects the documented project state.
+### Module 3 — Package and Software Management — In Progress
 
-### Module 3 — Package and Software Management — Active / Ready to Begin
+Current covered lesson sequence:
 
-Study rules for the active module:
+1. **Windows: Software Packages**
+2. **Supplemental Reading for Windows Software Packages**
+3. **Linux: Software Packages**
 
-- Coursera defines lesson sequence.
-- Exact lesson titles are sufficient by default; transcripts are optional unless exact wording, quiz framing, or instructor claims need verification.
-- Preserve **Course/Quiz Answer**, **Technical Clarification**, and **Production Reality** when the course simplifies or differs from current practice.
-- Do not mark the module completed until required coursework, graded review, practical work when applicable, glossary review, weak-area review, and final Study PDF workflow are complete.
-- The next module starts in a new operational conversation only after Module 3 closes and its checkpoint is finalized.
+Current practical-reinforcement decision:
+
+- do not create a filler lab immediately after a single `apt`/package-management concept;
+- wait until the lesson sequence supports a more complete workflow such as `Identify → Inspect/Search → Install → Verify → Troubleshoot if needed → Remove/Clean up → Verify`;
+- treat any such mini-lab as study reinforcement first, not automatically as a public portfolio project.
+
+Module completion remains gated on required coursework, graded review, practical work when applicable, glossary review, weak-area review, and final Study PDF workflow.
+
+## Instruction architecture checkpoint
+
+The project now uses a two-layer ChatGPT instruction model:
+
+- **Local ChatGPT Project Instructions** — compact always-loaded bootstrap only;
+- **`docs/CHATGPT-PROJECT-INSTRUCTIONS.md`** — extended version-controlled canonical ChatGPT operating policy.
+
+The extended policy contains durable teaching, practical-reinforcement, troubleshooting, PDF, privacy, Git, device, career, and paid/cloud-resource rules so future improvements no longer need to consume the limited local Project Instruction space.
+
+Progressive context loading is the default for meaningful ChatGPT work:
+
+`Local bootstrap → verify current state → PROJECT-STATUS.md → extended ChatGPT policy → relevant canonical documents only`
 
 ## Current operating priority
 
@@ -137,7 +158,7 @@ Update this section when the real account/resource state changes.
 
 Continue the official Course 3 Module 3 operational conversation.
 
-**Next safe step:** Jaret provides the first exact Coursera lesson title for **Module 3 — Package and Software Management**. No lesson content should be pre-taught before that title is supplied.
+**Next safe step:** Jaret provides the next exact Coursera lesson title for **Module 3 — Package and Software Management**.
 
 ## Documentation update rule
 
