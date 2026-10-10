@@ -10,7 +10,8 @@ Use:
 
 - `PROJECT-STATUS.md` for current operational state;
 - `ROADMAP.md` for future sequence and priorities;
-- `docs/PROJECT-CONTINUITY-PROTOCOL.md` for durable working rules; and
+- `docs/PROJECT-CONTINUITY-PROTOCOL.md` for durable working rules;
+- `docs/CHATGPT-PROJECT-INSTRUCTIONS.md` for extended ChatGPT operating policy; and
 - this file for decisions whose rationale should remain visible after current status changes.
 
 ---
@@ -95,7 +96,28 @@ For structured courses with clear modules, use one operational conversation per 
 
 A new module conversation continues the same project rather than resetting it. The prior module must remain preserved, and the next module should begin only after the previous module's required coursework, review, practical work when applicable, glossary/weak-area review, and established completion artifact workflow are closed.
 
-Detailed teaching and completion rules remain defined in `docs/PROJECT-CONTINUITY-PROTOCOL.md`.
+Detailed teaching and completion rules remain defined in `docs/PROJECT-CONTINUITY-PROTOCOL.md` and the extended ChatGPT operating policy.
+
+---
+
+## D-007 — ChatGPT instructions use a two-layer architecture
+
+**Status:** CONFIRMED
+
+To avoid local Project Instruction size pressure and preserve context quality as the Career Lab grows, ChatGPT instructions use two complementary layers:
+
+1. **Local ChatGPT Project Instructions** — a compact always-loaded bootstrap containing only what must be known before repository access.
+2. **`docs/CHATGPT-PROJECT-INSTRUCTIONS.md`** — the extended version-controlled canonical ChatGPT operating policy for teaching, labs, troubleshooting, PDFs, privacy, Git, career support, device continuity, paid/cloud gates, and future durable operating rules.
+
+New durable ChatGPT operating rules normally belong in the GitHub policy rather than expanding the local bootstrap.
+
+The local bootstrap changes only when a rule must be available before GitHub can be consulted or when the bootstrap/authority architecture itself changes.
+
+Meaningful work should use progressive context loading rather than loading every project document into every conversation:
+
+`Local bootstrap → verify current state → PROJECT-STATUS.md → extended ChatGPT policy → relevant canonical documents only`
+
+This decision preserves context capacity without sacrificing established rules.
 
 ---
 
