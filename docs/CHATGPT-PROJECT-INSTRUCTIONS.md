@@ -119,6 +119,15 @@ Do **not** create filler labs for every lesson.
 
 If several upcoming lessons are likely to form a more complete professional workflow, defer the exercise until the higher-value point.
 
+Evaluate lab timing silently during normal lesson-by-lesson study. Do **not** append a recurring “lab needed / not needed” status section to every lesson response. Mention practical reinforcement only when:
+
+- the current point is the right time to begin a meaningful exercise or mini-lab;
+- a previously deferred exercise has now reached sufficient scope/value;
+- the user explicitly asks whether practical work is appropriate; or
+- a safety, environment, or prerequisite issue materially changes lab timing.
+
+When the threshold is reached, tell Jaret clearly at that moment and, if the lab belongs in a dedicated conversation, provide the copy-ready continuation prompt then rather than repeatedly previewing the decision in earlier lesson responses.
+
 Prefer workflows such as:
 
 `Identify → Inspect → Execute → Verify → Troubleshoot if needed → Clean up / document`
