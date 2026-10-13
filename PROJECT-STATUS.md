@@ -1,6 +1,6 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-10-09
+Last updated: 2026-10-13
 
 ## Purpose and authority
 
@@ -41,19 +41,15 @@ All portfolio work must remain clearly represented as hands-on learning, self-di
 - Google IT Support Professional Certificate — Course 3: Operating Systems and You: Becoming a Power User
   - Module 1 — Basic Commands: **Completed**
   - Module 2 — Users and Permissions: **Completed**
+  - Module 3 — Package and Software Management: **Completed**
 
 ### Active
 
 - Google IT Support Professional Certificate
 - Course 3 — Operating Systems and You: Becoming a Power User
-  - Module 3 — Package and Software Management: **In Progress**
-  - Operational conversation active.
-  - Lesson study completed in this conversation so far:
-    - Windows: Software Packages
-    - Supplemental Reading for Windows Software Packages
-    - Linux: Software Packages
-  - A package-management practical reinforcement mini-lab is intentionally deferred until enough related lessons exist to form a higher-value workflow rather than an isolated command exercise.
-  - Next step: continue with the next exact Coursera lesson title supplied by Jaret.
+  - Module 4 — **Ready to Start**
+  - Start Module 4 in a new operational conversation as a continuation of the same course/project.
+  - Confirm the exact Coursera Module 4 title from the course before recording it canonically.
 
 ### Queued / ready after current Coursera priority
 
@@ -93,25 +89,43 @@ User-confirmed closeout includes:
 - module review / quiz work; and
 - final Module 2 Study PDF created and reviewed as a private study artifact.
 
-### Module 3 — Package and Software Management — In Progress
+### Module 3 — Package and Software Management — Completed
 
-Current covered lesson sequence:
+Completion was recovered and reconciled after the final portion was accidentally finished in a separate ChatGPT conversation.
 
-1. **Windows: Software Packages**
-2. **Supplemental Reading for Windows Software Packages**
-3. **Linux: Software Packages**
+Verified study coverage includes:
 
-Current practical-reinforcement decision:
+- Windows software packages: EXE, MSI, APPX, Windows Installer, installer switches, Process Monitor / Sysinternals, Orca, Registry/files/process behavior, PowerShell PackageManagement, and archives/compression;
+- Windows package dependencies: DLLs/shared libraries, DLL conflicts, private DLLs, .NET assemblies/GAC, manifests, side-by-side assemblies, and WinSxS concepts;
+- Linux package management: `.deb`, `dpkg`, APT, repositories, dependency handling, install/remove/purge/query concepts, and Debian vs Red Hat package families;
+- Linux archives: `tar`, `gzip`, `.tar`, `.tar.gz`, create/extract/list workflows, and core `tar` flag recognition;
+- mobile software distribution: APK, AAB, IPA, app stores, sideloading, sandboxing, Apple/Android managed distribution, MDM/UEM, and mobile storage troubleshooting;
+- Windows devices/drivers: Hardware IDs, Plug and Play, Device Manager, driver sources, update/rollback, and driver trust/signature concepts;
+- Linux devices/drivers: `/dev`, character vs block devices, `udev`, `lspci`, `lsusb`, `lsscsi`, `lsmod`, `modprobe`, `dmesg`, CUPS, `lpadmin`, and PPD recognition;
+- Windows operating-system updates: Windows Update Client service, update categories, security severity framing, automatic/manual updates, and cumulative updates;
+- Linux operating-system updates: kernel responsibilities, Ubuntu Update Manager, `apt-get update` / `apt-get upgrade`, `apt update` / `apt upgrade`, kernel updates, and reboot/verification concepts;
+- glossary review for Module 3 terminology; and
+- final review / quiz concepts including APPX, `dpkg -i`, app stores, `Compress-Archive`, `Install-Package`, APT, Chocolatey source syntax, Hardware IDs, Windows device detection, Linux `/dev` character/block devices, security patches, the Linux kernel, cumulative updates, and `sudo apt update`.
 
-- do not create a filler lab immediately after a single `apt`/package-management concept;
-- wait until the lesson sequence supports a more complete workflow such as `Identify → Inspect/Search → Install → Verify → Troubleshoot if needed → Remove/Clean up → Verify`;
-- treat any such mini-lab as study reinforcement first, not automatically as a public portfolio project.
+Practical-reinforcement integrity:
 
-Module completion remains gated on required coursework, graded review, practical work when applicable, glossary review, weak-area review, and final Study PDF workflow.
+- the APT / Suricata / tcpdump workflow is preserved only as a **course exemplar / optional practice reference**;
+- it is **not** claimed as a personally executed hands-on or portfolio lab without separate execution evidence;
+- no filler standalone portfolio project was created merely to satisfy a lab count.
+
+Final Study PDF closeout:
+
+- the initially generated Module 3 Study Guide was audited against the real completed Module 3 work;
+- omissions and inconsistencies were corrected, including operating-system updates, Linux archives, package-dependency detail, Linux device/driver tooling, mobile storage, quiz anchors, glossary coverage, and the practical-lab labeling issue;
+- the corrected PDF was rendered and visually QA-reviewed across all 17 pages;
+- no clipped text, broken glyphs, overlap, or unresolved pagination defect remained in the final review;
+- the corrected Module 3 Study Guide is a **private study artifact**, not public portfolio evidence.
+
+Module 3 is therefore **Completed**.
 
 ## Instruction architecture checkpoint
 
-The project now uses a two-layer ChatGPT instruction model:
+The project uses a two-layer ChatGPT instruction model:
 
 - **Local ChatGPT Project Instructions** — compact always-loaded bootstrap only;
 - **`docs/CHATGPT-PROJECT-INSTRUCTIONS.md`** — extended version-controlled canonical ChatGPT operating policy.
@@ -128,7 +142,7 @@ The immediate learning priority remains the Google IT Support Professional Certi
 
 Strategic sequence:
 
-`Course 3 active → finish current Course 3 module(s) → Module 01 → Lab 03`
+`Course 3 active → Module 4 next → finish remaining Course 3 modules → Module 01 → Lab 03`
 
 Complementary track:
 
@@ -156,9 +170,9 @@ Update this section when the real account/resource state changes.
 
 ## Immediate next action
 
-Continue the official Course 3 Module 3 operational conversation.
+Start the official Course 3 Module 4 operational conversation.
 
-**Next safe step:** Jaret provides the next exact Coursera lesson title for **Module 3 — Package and Software Management**.
+**Next safe step:** confirm the exact Coursera title for Module 4, then continue from its first lesson without restarting Modules 1–3.
 
 ## Documentation update rule
 
