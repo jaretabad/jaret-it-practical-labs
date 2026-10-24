@@ -121,6 +121,31 @@ This decision preserves context capacity without sacrificing established rules.
 
 ---
 
+## D-008 — Public portfolio main-branch safeguards
+
+**Decision date:** 2026-10-23
+**Status:** REPORTED IMPLEMENTED by repository owner; live ruleset enforcement not independently read by the available GitHub connector.
+
+Keep `jaretabad/jaret-it-practical-labs` **public** for recruiters and portfolio reviewers while protecting its default branch (`main`) against accidental deletion and forced history rewrites, without adding unnecessary friction to legitimate incremental portfolio commits.
+
+The owner reviewed GitHub `Settings → Rules → Rulesets`, saw no existing rulesets, then configured a **branch ruleset** named `Main Branch Protection`, targeting **Default** (`main`). Configuration shown in screenshots before submission:
+
+- **Restrict deletions:** enabled.
+- **Block force pushes:** enabled.
+- **Restrict updates:** disabled, allowing ordinary authorized updates.
+- **Require a pull request before merging:** disabled.
+- **Require signed commits / required status checks / other listed restrictions:** disabled.
+- **Bypass list:** empty.
+- **Enforcement:** originally `Disabled` during setup; owner was instructed to switch to `Active` before clicking `Create` and subsequently reported completion (`listo`).
+
+A preceding check by the owner showed **zero directly assigned collaborators**. That observation does not prove absence of GitHub Apps, fine-grained tokens or other integrations with write access. Public visibility grants reading/cloning/forking and the ability to propose pull requests, **not** direct writes by strangers.
+
+**Verification boundary / next review:** The connected GitHub API tools available in this chat cannot directly inspect repository rulesets; attempts to read the public ruleset endpoint were unsuccessful. Therefore do **not** claim that the active status or protection enforcement was independently verified. If assurance is needed, inspect `Settings → Rules → Rulesets` in the owner UI and confirm `Main Branch Protection` is `Active` and scoped to `Default`, or use an authenticated GitHub API client with ruleset read permission. Test an ordinary permitted commit only when real work warrants it; do not run destructive force-push/delete tests.
+
+**Rationale:** Minimal guardrails protect portfolio history while preserving an efficient owner-controlled GitHub/ChatGPT workflow. Reconsider required PRs/checks if external collaborators or CI/CD release needs emerge.
+
+---
+
 ## Decision-log maintenance
 
 Add a new decision only when the choice is material enough that a future conversation would benefit from knowing **what was decided and why**.
