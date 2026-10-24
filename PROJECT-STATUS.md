@@ -1,6 +1,6 @@
 # Jaret IT Practical Labs — Current Project Status
 
-Last updated: 2026-10-13
+Last updated: 2026-10-23
 
 ## Purpose and authority
 
@@ -45,15 +45,18 @@ All portfolio work must remain clearly represented as hands-on learning, self-di
 
 ### Active
 
-- Google IT Support Professional Certificate
-- Course 3 — Operating Systems and You: Becoming a Power User
-  - Module 4 — **Ready to Start**
-  - Start Module 4 in a new operational conversation as a continuation of the same course/project.
-  - Confirm the exact Coursera Module 4 title from the course before recording it canonically.
-
-### Queued / ready after current Coursera priority
-
 - Module 01 — Enterprise Identity & Microsoft Cloud Foundations
+  - **Current temporary priority while Coursera subscription access is unavailable.**
+  - Begin with the conceptual / course-style learning block before creating any Microsoft 365 tenant, Azure subscription, paid license, or cloud resource.
+  - Continue using the established professional-course study method and prepare toward Lab 03.
+
+### Paused / awaiting Coursera access
+
+- Google IT Support Professional Certificate — **In Progress / Temporarily Paused**
+- Course 3 — Operating Systems and You: Becoming a Power User
+  - Modules 1–3 remain **Completed**.
+  - Module 4 remains the next Coursera module and should resume from that checkpoint when access is restored.
+  - Do **not** restart Modules 1–3.
 
 ### Planned / not started
 
@@ -138,17 +141,23 @@ Progressive context loading is the default for meaningful ChatGPT work:
 
 ## Current operating priority
 
-The immediate learning priority remains the Google IT Support Professional Certificate through Course 3.
+Coursera Course 3 is temporarily paused because paid platform access is currently unavailable. This is an access blocker, not a course reset or abandonment.
 
-Strategic sequence:
+The immediate learning priority is now:
 
-`Course 3 active → Module 4 next → finish remaining Course 3 modules → Module 01 → Lab 03`
+**Module 01 — Enterprise Identity & Microsoft Cloud Foundations**
+
+Temporary operating sequence:
+
+`Course 3 Modules 1–3 completed → Course 3 Module 4 paused for access → Module 01 active → Lab 03 planned`
+
+When Coursera access is restored, resume Course 3 from Module 4 without repeating completed modules. Re-evaluate the exact interleaving with Module 01 at that checkpoint rather than discarding completed Module 01 progress.
 
 Complementary track:
 
 `Mini-Module S1 → Lab S1`
 
-The Support Operations Track may receive limited parallel study time, but it must not replace or delay the primary Course 3 / Module 01 / Lab 03 sequence unless the roadmap is intentionally changed.
+The Support Operations Track may receive limited parallel study time, but it should not displace Module 01 or the eventual continuation of Course 3 unless the roadmap is intentionally changed.
 
 ## Cloud and paid-resource status
 
@@ -170,9 +179,9 @@ Update this section when the real account/resource state changes.
 
 ## Immediate next action
 
-Start the official Course 3 Module 4 operational conversation.
+Start **Module 01 — Enterprise Identity & Microsoft Cloud Foundations** in its dedicated operational conversation.
 
-**Next safe step:** confirm the exact Coursera title for Module 4, then continue from its first lesson without restarting Modules 1–3.
+**Next safe step:** begin the conceptual Module 01 learning block without creating paid/cloud resources. Keep Course 3 Module 4 paused at its existing checkpoint until Coursera access is restored.
 
 ## Documentation update rule
 
