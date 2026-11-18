@@ -178,6 +178,33 @@ Planned workflow:
 
 All users, technicians, devices, tickets, and operational data must be fictional or fully sanitized.
 
+## Complementary AI & Intelligent Automation Learning Track (planned)
+
+**Scope:** structured professional study, not production development or a competing priority to the main IT/Cloud/Identity progression. This track was added by the 2026-11-17 study-vs-business separation decision; its current activation and academic progress remain governed exclusively by `PROJECT-STATUS.md`.
+
+### Why this track exists
+
+Learn foundational AI literacy, practical prompt/API usage, Python, LLM concepts, RAG, AI Agents, privacy and security, cost/latency monitoring, evaluation, and integration with enterprise cloud/identity services where appropriate. Prioritize employer-relevant skills, explainable understanding and repeatable validation over expensive certification marketing.
+
+### Proposed sequence (subject to readiness and verification)
+
+1. Free AI fundamentals and responsible-use concepts, with Microsoft Learn as a natural fit for the Azure/Microsoft 365 direction.
+2. APIs, Python/data handling, authentication, permission boundaries and practical integration safety.
+3. Generative AI and LLM evaluation; grounding/RAG; failure modes and privacy.
+4. Agentic AI and tools/workflows, observability, security and cost control.
+5. Optional professional certification only after checking current exam availability, exam value, price, prerequisites and fit with job-market goals.
+6. A small sanitized independent demonstration or portfolio-worthy lab **only when** it shows meaningful transferable technical competence.
+
+### Study versus product Build-to-Learn
+
+The academic roadmap stays here. Real business software such as websites, CRM, SaaS, SBOS and AI automations is governed and documented in the **product's own repository**, including its specifications, code, tests, customer data rules, owner approvals, release workflow and lessons learned while building.
+
+Product implementation may reveal an academic learning gap; transfer only the generalized topic or a sanitized, separately validated demonstration here. Do not copy client or proprietary product information, misrepresent guided/AI-assisted work, or treat an interesting Ads review as an instruction to alter this curriculum.
+
+Research advertisements and third-party offers in the ChatGPT Ads radar; corporate-wide opportunity triage and reusable radar rules live in the private [Software Company — Corporate HQ](https://github.com/jaretabad/software-company-corporate-hq). Product-specific decisions remain in product repositories, never in this professional learning portfolio.
+
+**Priority protection:** Keep the verified Course 3 / Module 01 / Lab 03 checkpoints intact. Adding this future track does **not** mark AI study started, modify any module completion, or authorize paid resources.
+
 ## Portfolio evidence strategy
 
 Useful reviewed artifacts may include:
