@@ -146,6 +146,23 @@ A preceding check by the owner showed **zero directly assigned collaborators**. 
 
 ---
 
+## D-009 — Separate academic AI learning, product Build-to-Learn and discovery reviews
+
+**Decision date:** 2026-11-17  
+**Status:** OWNER-APPROVED DIRECTION
+
+Retain the Career Lab as the canonical home for structured professional study (Coursera, IT Support, Cloud, Identity, Cybersecurity and a future complementary AI & Intelligent Automation track), module progress, certification planning and sanitized professional portfolio evidence.
+
+Keep learning acquired while implementing real business websites, CRM, SaaS, AI Agents and automation **inside the corresponding product/client repository**, under its own requirements, approval, security, QA, and deployment controls. Transfer only generalizable learning needs or safely sanitized demonstrations to the Career Lab. Personal development remains a private supporting practice, not public portfolio data.
+
+Keep advertisements and emerging-tool reviews in the existing Ads ChatGPT project. The private Corporate HQ repository governs the cross-project Technology & Business Opportunity Radar. A radar finding cannot unilaterally change this roadmap or authorize product implementation.
+
+**Why:** Academic instruction, product delivery and marketing discovery serve different goals and require different sources of truth. Reuse insights through references and curated learning gaps, not duplicated state or mixed private data.
+
+**Effect on current priority:** No active-module change, paid resource activation or claim of AI study completion; the existing verified checkpoint remains in `PROJECT-STATUS.md`.
+
+---
+
 ## Decision-log maintenance
 
 Add a new decision only when the choice is material enough that a future conversation would benefit from knowing **what was decided and why**.
